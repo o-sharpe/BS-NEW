@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 
 namespace Screen
 {
@@ -116,6 +117,24 @@ namespace Screen
 		public Rectangle ScreenRectangle
 		{
 			get { return Camera.Transform(WorldRectangle); }
+		}
+
+		public Rectangle ScaledScreenRectangle
+		{
+			get
+			{
+				var screenRect = ScreenRectangle;
+				return new Rectangle((int)(screenRect.X * Camera.Scale.X), (int)(screenRect.Y * Camera.Scale.Y), (int)(screenRect.Width * Camera.Scale.X), (int)(screenRect.Height * Camera.Scale.Y));
+			}
+		}
+
+		public Vector2 ScaledScreenPosition
+		{
+			get
+			{
+				var screenPos = ScreenCenter;
+				return new Vector2(screenPos.X * Camera.Scale.X, screenPos.Y * Camera.Scale.Y);
+			}
 		}
 
 		public Vector2 RelativeCenter

@@ -14,6 +14,8 @@ namespace Screen
 		private static Vector2 position = Vector2.Zero;
 		private static Vector2 viewPortSize = Vector2.Zero;
 		private static Rectangle worldRectangle = new Rectangle(0, 0, 0, 0);
+		private static Vector2 phoneHeightAndWidth = Vector2.Zero;
+		private static Vector2 scale = Vector2.Zero;
 
 		#endregion
 
@@ -56,6 +58,24 @@ namespace Screen
 			{
 				return new Rectangle((int)Position.X, (int)Position.Y, ViewPortWidth, ViewPortHeight);
 			}
+		}
+
+		public static Vector2 PhoneHeightAndWidth
+		{
+			get
+			{
+				return phoneHeightAndWidth;
+			}
+			set { phoneHeightAndWidth = value; }
+		}
+
+		public static Vector2 Scale
+		{
+			get
+			{
+				return scale;
+			}
+			set { scale = value; }
 		}
 
 		#endregion
