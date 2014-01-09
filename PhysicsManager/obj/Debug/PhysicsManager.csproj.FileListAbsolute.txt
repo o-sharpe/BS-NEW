@@ -47,3 +47,47 @@ C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Physics
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\PhysicsManager\obj\Debug\layout.resfiles.intermediate
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\PhysicsManager\obj\Debug\resources.resfiles.intermediate
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\PhysicsManager\obj\Debug\pri.resfiles.intermediate
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\PhysicsManager.dll
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\PhysicsManager.pdb
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\PhysicsManager.pri
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\Battlestar.dll
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\EnemyManager.dll
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\GameManager.dll
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\MonoGame.Framework.dll
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\Screen.dll
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\Weapons.dll
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\HUD.dll
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\SharpDX.dll
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\SharpDX.XAudio2.dll
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\SharpDX.Direct3D11.dll
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\SharpDX.Direct2D1.dll
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\SharpDX.DXGI.dll
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\SharpDX.MediaFoundation.dll
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\SharpDX.XInput.dll
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\Battlestar.pdb
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\Battlestar.pri
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\EnemyManager.pdb
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\EnemyManager.pri
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\GameManager.pdb
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\GameManager.pri
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\Screen.pdb
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\Screen.pri
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\Weapons.pdb
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\Weapons.pri
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\HUD.pdb
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\HUD.pri
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\SharpDX.xml
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\SharpDX.XAudio2.xml
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\SharpDX.Direct3D11.xml
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\SharpDX.Direct2D1.xml
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\SharpDX.DXGI.xml
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\SharpDX.MediaFoundation.xml
+F:\Workspace\BS-NEW\PhysicsManager\bin\Debug\SharpDX.XInput.xml
+F:\Workspace\BS-NEW\PhysicsManager\obj\Debug\PhysicsManager.csprojResolveAssemblyReference.cache
+F:\Workspace\BS-NEW\PhysicsManager\obj\Debug\PhysicsManager.dll
+F:\Workspace\BS-NEW\PhysicsManager\obj\Debug\PhysicsManager.pdb
+F:\Workspace\BS-NEW\PhysicsManager\obj\Debug\priconfig.xml
+F:\Workspace\BS-NEW\PhysicsManager\obj\Debug\layout.resfiles
+F:\Workspace\BS-NEW\PhysicsManager\obj\Debug\resources.resfiles
+F:\Workspace\BS-NEW\PhysicsManager\obj\Debug\pri.resfiles
+F:\Workspace\BS-NEW\PhysicsManager\obj\Debug\LanguageQualifiers.txt

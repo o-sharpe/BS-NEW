@@ -22,7 +22,7 @@ namespace Battlestar
 		private static float playerSpeed = 90f;
 		private static Rectangle scrollArea = new Rectangle(150, 100, 500, 400);
 		private static Random rand = new Random();
-		private static int HullState = 100;
+		private static int HullState = 5;
 
 		#endregion
 

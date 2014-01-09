@@ -45,10 +45,10 @@ namespace GameManager
             Score += enemy.MaxHealth;
         }
 
-        private static void EndGame()
+        private async static void EndGame()
         {
 			EnemyManager.EnemyManager.Active = false;
-			LoadScores();
+			await LoadScores();
             var hasTobeStored = false;
             foreach(int score in itemCollection){
                 if(score < Score)
@@ -60,11 +60,11 @@ namespace GameManager
             if (itemCollection.Count <= 10 || hasTobeStored)
             {
                 itemCollection.Add(Score);
-                SaveScores();
+                await SaveScores();
             }
         }
 
-        public async static void LoadScores()
+        public async static Task<ObservableCollection<int>> LoadScores()
         {
             StorageFile localFile;
 			try
@@ -80,14 +80,11 @@ namespace GameManager
 				string localData = await FileIO.ReadTextAsync(localFile);
 				if (!(localData == ""))
 					itemCollection = ObjectSerializer<ObservableCollection<int>>.FromXml(localData);
-				else
-					itemCollection = new ObservableCollection<int>();
 			}
-			else
-				itemCollection = new ObservableCollection<int>();
+            return itemCollection;
         }
 
-        public async static void SaveScores()
+        public async static Task<ObservableCollection<int>> SaveScores()
         {
             string localData = ObjectSerializer<ObservableCollection<int>>.ToXml(itemCollection);
             if (!string.IsNullOrEmpty(localData))
@@ -95,6 +92,7 @@ namespace GameManager
                 StorageFile localFile = await ApplicationData.Current.LocalFolder.CreateFileAsync("localData.xml", CreationCollisionOption.ReplaceExisting);
                 await FileIO.WriteTextAsync(localFile, localData);
             }
+            return itemCollection;
         }
 
 		public static void Update(GameTime gameTime)

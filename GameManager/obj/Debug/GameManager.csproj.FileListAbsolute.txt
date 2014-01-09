@@ -44,3 +44,44 @@ C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\GameMan
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\GameManager\obj\Debug\layout.resfiles.intermediate
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\GameManager\obj\Debug\resources.resfiles.intermediate
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\GameManager\obj\Debug\pri.resfiles.intermediate
+F:\Workspace\BS-NEW\GameManager\bin\Debug\GameManager.dll
+F:\Workspace\BS-NEW\GameManager\bin\Debug\GameManager.pdb
+F:\Workspace\BS-NEW\GameManager\bin\Debug\GameManager.pri
+F:\Workspace\BS-NEW\GameManager\bin\Debug\Battlestar.dll
+F:\Workspace\BS-NEW\GameManager\bin\Debug\EnemyManager.dll
+F:\Workspace\BS-NEW\GameManager\bin\Debug\MonoGame.Framework.dll
+F:\Workspace\BS-NEW\GameManager\bin\Debug\Screen.dll
+F:\Workspace\BS-NEW\GameManager\bin\Debug\HUD.dll
+F:\Workspace\BS-NEW\GameManager\bin\Debug\Weapons.dll
+F:\Workspace\BS-NEW\GameManager\bin\Debug\SharpDX.dll
+F:\Workspace\BS-NEW\GameManager\bin\Debug\SharpDX.XAudio2.dll
+F:\Workspace\BS-NEW\GameManager\bin\Debug\SharpDX.Direct3D11.dll
+F:\Workspace\BS-NEW\GameManager\bin\Debug\SharpDX.Direct2D1.dll
+F:\Workspace\BS-NEW\GameManager\bin\Debug\SharpDX.DXGI.dll
+F:\Workspace\BS-NEW\GameManager\bin\Debug\SharpDX.MediaFoundation.dll
+F:\Workspace\BS-NEW\GameManager\bin\Debug\SharpDX.XInput.dll
+F:\Workspace\BS-NEW\GameManager\bin\Debug\Battlestar.pdb
+F:\Workspace\BS-NEW\GameManager\bin\Debug\Battlestar.pri
+F:\Workspace\BS-NEW\GameManager\bin\Debug\EnemyManager.pdb
+F:\Workspace\BS-NEW\GameManager\bin\Debug\EnemyManager.pri
+F:\Workspace\BS-NEW\GameManager\bin\Debug\Screen.pdb
+F:\Workspace\BS-NEW\GameManager\bin\Debug\Screen.pri
+F:\Workspace\BS-NEW\GameManager\bin\Debug\HUD.pdb
+F:\Workspace\BS-NEW\GameManager\bin\Debug\HUD.pri
+F:\Workspace\BS-NEW\GameManager\bin\Debug\Weapons.pdb
+F:\Workspace\BS-NEW\GameManager\bin\Debug\Weapons.pri
+F:\Workspace\BS-NEW\GameManager\bin\Debug\SharpDX.xml
+F:\Workspace\BS-NEW\GameManager\bin\Debug\SharpDX.XAudio2.xml
+F:\Workspace\BS-NEW\GameManager\bin\Debug\SharpDX.Direct3D11.xml
+F:\Workspace\BS-NEW\GameManager\bin\Debug\SharpDX.Direct2D1.xml
+F:\Workspace\BS-NEW\GameManager\bin\Debug\SharpDX.DXGI.xml
+F:\Workspace\BS-NEW\GameManager\bin\Debug\SharpDX.MediaFoundation.xml
+F:\Workspace\BS-NEW\GameManager\bin\Debug\SharpDX.XInput.xml
+F:\Workspace\BS-NEW\GameManager\obj\Debug\GameManager.csprojResolveAssemblyReference.cache
+F:\Workspace\BS-NEW\GameManager\obj\Debug\GameManager.dll
+F:\Workspace\BS-NEW\GameManager\obj\Debug\GameManager.pdb
+F:\Workspace\BS-NEW\GameManager\obj\Debug\priconfig.xml
+F:\Workspace\BS-NEW\GameManager\obj\Debug\layout.resfiles
+F:\Workspace\BS-NEW\GameManager\obj\Debug\resources.resfiles
+F:\Workspace\BS-NEW\GameManager\obj\Debug\pri.resfiles
+F:\Workspace\BS-NEW\GameManager\obj\Debug\LanguageQualifiers.txt

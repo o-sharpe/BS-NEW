@@ -1,35 +1,3 @@
-F:\Workspace\BS-NEW\Weapons\bin\Debug\Weapons.dll
-F:\Workspace\BS-NEW\Weapons\bin\Debug\Weapons.pdb
-F:\Workspace\BS-NEW\Weapons\bin\Debug\Weapons.pri
-F:\Workspace\BS-NEW\Weapons\bin\Debug\EnemyManager.dll
-F:\Workspace\BS-NEW\Weapons\bin\Debug\MonoGame.Framework.dll
-F:\Workspace\BS-NEW\Weapons\bin\Debug\Screen.dll
-F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.dll
-F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.XAudio2.dll
-F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.Direct3D11.dll
-F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.Direct2D1.dll
-F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.DXGI.dll
-F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.MediaFoundation.dll
-F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.XInput.dll
-F:\Workspace\BS-NEW\Weapons\bin\Debug\EnemyManager.pdb
-F:\Workspace\BS-NEW\Weapons\bin\Debug\EnemyManager.pri
-F:\Workspace\BS-NEW\Weapons\bin\Debug\Screen.pdb
-F:\Workspace\BS-NEW\Weapons\bin\Debug\Screen.pri
-F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.xml
-F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.XAudio2.xml
-F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.Direct3D11.xml
-F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.Direct2D1.xml
-F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.DXGI.xml
-F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.MediaFoundation.xml
-F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.XInput.xml
-F:\Workspace\BS-NEW\Weapons\obj\Debug\Weapons.csprojResolveAssemblyReference.cache
-F:\Workspace\BS-NEW\Weapons\obj\Debug\Weapons.dll
-F:\Workspace\BS-NEW\Weapons\obj\Debug\Weapons.pdb
-F:\Workspace\BS-NEW\Weapons\obj\Debug\priconfig.xml
-F:\Workspace\BS-NEW\Weapons\obj\Debug\layout.resfiles
-F:\Workspace\BS-NEW\Weapons\obj\Debug\resources.resfiles
-F:\Workspace\BS-NEW\Weapons\obj\Debug\pri.resfiles
-F:\Workspace\BS-NEW\Weapons\obj\Debug\LanguageQualifiers.txt
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\bin\Debug\Weapons.dll
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\bin\Debug\Weapons.pdb
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\bin\Debug\Weapons.pri
@@ -60,3 +28,36 @@ C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\obj\Debug\resources.resfiles
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\obj\Debug\pri.resfiles
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\obj\Debug\LanguageQualifiers.txt
+F:\Workspace\BS-NEW\Weapons\bin\Debug\Weapons.dll
+F:\Workspace\BS-NEW\Weapons\bin\Debug\Weapons.pdb
+F:\Workspace\BS-NEW\Weapons\bin\Debug\Weapons.pri
+F:\Workspace\BS-NEW\Weapons\bin\Debug\MonoGame.Framework.dll
+F:\Workspace\BS-NEW\Weapons\bin\Debug\Screen.dll
+F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.dll
+F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.XAudio2.dll
+F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.Direct3D11.dll
+F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.Direct2D1.dll
+F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.DXGI.dll
+F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.MediaFoundation.dll
+F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.XInput.dll
+F:\Workspace\BS-NEW\Weapons\bin\Debug\Screen.pdb
+F:\Workspace\BS-NEW\Weapons\bin\Debug\Screen.pri
+F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.xml
+F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.XAudio2.xml
+F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.Direct3D11.xml
+F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.Direct2D1.xml
+F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.DXGI.xml
+F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.MediaFoundation.xml
+F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.XInput.xml
+F:\Workspace\BS-NEW\Weapons\obj\Debug\Weapons.csprojResolveAssemblyReference.cache
+F:\Workspace\BS-NEW\Weapons\obj\Debug\Weapons.dll
+F:\Workspace\BS-NEW\Weapons\obj\Debug\Weapons.pdb
+F:\Workspace\BS-NEW\Weapons\obj\Debug\priconfig.xml.intermediate
+F:\Workspace\BS-NEW\Weapons\obj\Debug\layout.resfiles.intermediate
+F:\Workspace\BS-NEW\Weapons\obj\Debug\resources.resfiles.intermediate
+F:\Workspace\BS-NEW\Weapons\obj\Debug\pri.resfiles.intermediate
+F:\Workspace\BS-NEW\Weapons\obj\Debug\priconfig.xml
+F:\Workspace\BS-NEW\Weapons\obj\Debug\layout.resfiles
+F:\Workspace\BS-NEW\Weapons\obj\Debug\resources.resfiles
+F:\Workspace\BS-NEW\Weapons\obj\Debug\pri.resfiles
+F:\Workspace\BS-NEW\Weapons\obj\Debug\LanguageQualifiers.txt
