@@ -60,6 +60,9 @@ namespace GameManager
             if (itemCollection.Count <= 10 || hasTobeStored)
             {
                 itemCollection.Add(Score);
+                itemCollection = new ObservableCollection<int>(itemCollection.OrderByDescending(_ => _));
+                if (itemCollection.Count > 10)
+                    itemCollection.RemoveAt(itemCollection.Count - 1);
                 await SaveScores();
             }
         }

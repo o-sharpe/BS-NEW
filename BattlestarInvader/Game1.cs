@@ -195,8 +195,20 @@ namespace BattlestarInvader
 			if (gameState == GameState.ScoreScreen)
 			{
 				Screen.StarField.Draw(spriteBatch);
+                if (GameManager.GameManager.CurrentWave > 0)
+                {
+                    spriteBatch.DrawString(pericles14, string.Format("SCORE: {0}", GameManager.GameManager.Score), new Vector2(200, 200), Color.White);
+                    spriteBatch.DrawString(pericles14, string.Format("WAVE: {0}", GameManager.GameManager.CurrentWave), new Vector2(200, 235), Color.White);
+                }
+                int position = 200;
+                foreach (var score in GameManager.GameManager.itemCollection)
+                {
+                    spriteBatch.DrawString(pericles14, string.Format("SCORE: {0}", score), new Vector2(850, position), Color.White);
+                    position += 35;
+                }
 				spriteBatch.Draw(returnBt, new Rectangle(0, 0, 1280, 720), new Rectangle(0, 0, 1280, 720), Color.White);
-			}
+			    
+            }
 
 
 
@@ -225,8 +237,11 @@ namespace BattlestarInvader
 						GameManager.GameManager.StartNewGame();
 						return GameState.Playing;
 					}
-					else if (btScores.Contains(new Point((int)tl.Position.X, (int)tl.Position.Y)))
-						return GameState.ScoreScreen;
+                    else if (btScores.Contains(new Point((int)tl.Position.X, (int)tl.Position.Y)))
+                    {
+                        GameManager.GameManager.LoadScores();
+                        return GameState.ScoreScreen;
+                    }
 				}
 			}
 			else if (gameState == GameState.ScoreScreen)
