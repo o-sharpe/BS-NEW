@@ -31,10 +31,6 @@ F:\Workspace\BS-NEW\Battlestar\bin\Debug\SharpDX.MediaFoundation.xml
 F:\Workspace\BS-NEW\Battlestar\bin\Debug\SharpDX.XInput.xml
 F:\Workspace\BS-NEW\Battlestar\obj\Debug\Battlestar.dll
 F:\Workspace\BS-NEW\Battlestar\obj\Debug\Battlestar.pdb
-F:\Workspace\BS-NEW\Battlestar\obj\Debug\priconfig.xml.intermediate
-F:\Workspace\BS-NEW\Battlestar\obj\Debug\layout.resfiles.intermediate
-F:\Workspace\BS-NEW\Battlestar\obj\Debug\resources.resfiles.intermediate
-F:\Workspace\BS-NEW\Battlestar\obj\Debug\pri.resfiles.intermediate
 F:\Workspace\BS-NEW\Battlestar\obj\Debug\priconfig.xml
 F:\Workspace\BS-NEW\Battlestar\obj\Debug\layout.resfiles
 F:\Workspace\BS-NEW\Battlestar\obj\Debug\resources.resfiles
