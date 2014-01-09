@@ -28,7 +28,10 @@ C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyMa
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\resources.resfiles
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\pri.resfiles
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\LanguageQualifiers.txt
-F:\Workspace\BS-NEW\EnemyManager\obj\Debug\EnemyManager.csprojResolveAssemblyReference.cache
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\priconfig.xml.intermediate
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\layout.resfiles.intermediate
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\resources.resfiles.intermediate
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\pri.resfiles.intermediate
 F:\Workspace\BS-NEW\EnemyManager\bin\Debug\EnemyManager.dll
 F:\Workspace\BS-NEW\EnemyManager\bin\Debug\EnemyManager.pdb
 F:\Workspace\BS-NEW\EnemyManager\bin\Debug\EnemyManager.pri
@@ -50,6 +53,7 @@ F:\Workspace\BS-NEW\EnemyManager\bin\Debug\SharpDX.Direct2D1.xml
 F:\Workspace\BS-NEW\EnemyManager\bin\Debug\SharpDX.DXGI.xml
 F:\Workspace\BS-NEW\EnemyManager\bin\Debug\SharpDX.MediaFoundation.xml
 F:\Workspace\BS-NEW\EnemyManager\bin\Debug\SharpDX.XInput.xml
+F:\Workspace\BS-NEW\EnemyManager\obj\Debug\EnemyManager.csprojResolveAssemblyReference.cache
 F:\Workspace\BS-NEW\EnemyManager\obj\Debug\EnemyManager.dll
 F:\Workspace\BS-NEW\EnemyManager\obj\Debug\EnemyManager.pdb
 F:\Workspace\BS-NEW\EnemyManager\obj\Debug\priconfig.xml.intermediate
@@ -61,7 +65,3 @@ F:\Workspace\BS-NEW\EnemyManager\obj\Debug\layout.resfiles
 F:\Workspace\BS-NEW\EnemyManager\obj\Debug\resources.resfiles
 F:\Workspace\BS-NEW\EnemyManager\obj\Debug\pri.resfiles
 F:\Workspace\BS-NEW\EnemyManager\obj\Debug\LanguageQualifiers.txt
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\priconfig.xml.intermediate
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\layout.resfiles.intermediate
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\resources.resfiles.intermediate
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\pri.resfiles.intermediate

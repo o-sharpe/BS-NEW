@@ -58,6 +58,9 @@ C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battles
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\Weapons.pri
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\EnemyManager.pdb
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\EnemyManager.pri
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\HUD.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\HUD.pdb
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\HUD.pri
 F:\Workspace\BS-NEW\BattlestarInvader\obj\Debug\BattlestarInvader.csprojResolveAssemblyReference.cache
 F:\Workspace\BS-NEW\BattlestarInvader\obj\Debug\App.g.i.cs
 F:\Workspace\BS-NEW\BattlestarInvader\obj\Debug\App.g.cs
@@ -75,32 +78,35 @@ F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\resources.pri
 F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\AppxManifest.xml
 F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\BattlestarInvader.build.appxrecipe
 F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\Battlestar.dll
+F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\EnemyManager.dll
+F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\HUD.dll
 F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\MonoGame.Framework.dll
 F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\Screen.dll
-F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\SharpDX.Direct2D1.dll
-F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\SharpDX.Direct3D11.dll
+F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\Weapons.dll
 F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\SharpDX.dll
+F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\SharpDX.XAudio2.dll
+F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\SharpDX.Direct3D11.dll
+F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\SharpDX.Direct2D1.dll
 F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\SharpDX.DXGI.dll
 F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\SharpDX.MediaFoundation.dll
-F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\SharpDX.XAudio2.dll
 F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\SharpDX.XInput.dll
-F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\Weapons.dll
-F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\EnemyManager.dll
 F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\Battlestar.pdb
 F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\Battlestar.pri
-F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\Screen.pdb
-F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\Screen.pri
-F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\SharpDX.xml
-F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\SharpDX.XInput.xml
-F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\SharpDX.Direct2D1.xml
-F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\SharpDX.Direct3D11.xml
-F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\SharpDX.DXGI.xml
-F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\SharpDX.MediaFoundation.xml
-F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\SharpDX.XAudio2.xml
-F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\Weapons.pdb
-F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\Weapons.pri
 F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\EnemyManager.pdb
 F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\EnemyManager.pri
+F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\HUD.pdb
+F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\HUD.pri
+F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\Screen.pdb
+F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\Screen.pri
+F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\Weapons.pdb
+F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\Weapons.pri
+F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\SharpDX.xml
+F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\SharpDX.XAudio2.xml
+F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\SharpDX.Direct3D11.xml
+F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\SharpDX.Direct2D1.xml
+F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\SharpDX.DXGI.xml
+F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\SharpDX.MediaFoundation.xml
+F:\Workspace\BS-NEW\BattlestarInvader\bin\Windows8\Debug\SharpDX.XInput.xml
 F:\Workspace\BS-NEW\BattlestarInvader\obj\Debug\BattlestarInvader.exe
 F:\Workspace\BS-NEW\BattlestarInvader\obj\Debug\BattlestarInvader.pdb
 F:\Workspace\BS-NEW\BattlestarInvader\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
@@ -119,6 +125,3 @@ F:\Workspace\BS-NEW\BattlestarInvader\obj\Debug\resources.resfiles
 F:\Workspace\BS-NEW\BattlestarInvader\obj\Debug\pri.resfiles
 F:\Workspace\BS-NEW\BattlestarInvader\obj\Debug\LanguageQualifiers.txt
 F:\Workspace\BS-NEW\BattlestarInvader\obj\Debug\ProjectArchitectures.txt
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\HUD.dll
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\HUD.pdb
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\HUD.pri

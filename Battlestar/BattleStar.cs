@@ -22,6 +22,7 @@ namespace Battlestar
 		private static float playerSpeed = 90f;
 		private static Rectangle scrollArea = new Rectangle(150, 100, 500, 400);
 		private static Random rand = new Random();
+        private static int HullState = 100;
 
 		#endregion
 
@@ -62,22 +63,22 @@ namespace Battlestar
 		public static void Update(GameTime gameTime)
 		{
 		//	InputManager.HandleMouseInput(Mouse.GetState(), TurretSprite);	
-			InputManager.HandleJoystickTouch(TouchPanel.GetState(), HUD.Joystick.joystick);
+                InputManager.HandleJoystickTouch(TouchPanel.GetState(), HUD.Joystick.joystick);
 
-			if (Weapons.WeaponManager.CanFireWeapon && FireAngle != Vector2.Zero)
-			{
-				for (int i = 0; i < TurretSprites.Count; i++)
-				{
-					//Vector2 left = new Vector2(TurretSprites[i].ScreenRectangle.X, TurretSprites[i].ScreenRectangle.Y);
-					//Vector2 right = new Vector2(TurretSprites[i].ScreenRectangle.X + TurretSprites[i].ScreenRectangle.Height, TurretSprites[i].ScreenRectangle.Y);
-					//if (rand.Next(1, 3) == 1)
-					//	Weapons.WeaponManager.FireWeapon(TurretSprites[i].ScreenCenter, FireAngle * Weapons.WeaponManager.WeaponSpeed);
-					//else
-					//	Weapons.WeaponManager.FireWeapon(right, FireAngle * Weapons.WeaponManager.WeaponSpeed);
+                if (Weapons.WeaponManager.CanFireWeapon && FireAngle != Vector2.Zero)
+                {
+                    for (int i = 0; i < TurretSprites.Count; i++)
+                    {
+                        //Vector2 left = new Vector2(TurretSprites[i].ScreenRectangle.X, TurretSprites[i].ScreenRectangle.Y);
+                        //Vector2 right = new Vector2(TurretSprites[i].ScreenRectangle.X + TurretSprites[i].ScreenRectangle.Height, TurretSprites[i].ScreenRectangle.Y);
+                        //if (rand.Next(1, 3) == 1)
+                        //	Weapons.WeaponManager.FireWeapon(TurretSprites[i].ScreenCenter, FireAngle * Weapons.WeaponManager.WeaponSpeed);
+                        //else
+                        //	Weapons.WeaponManager.FireWeapon(right, FireAngle * Weapons.WeaponManager.WeaponSpeed);
 
-					Weapons.WeaponManager.FireWeapon(new Vector2(TurretSprites[i].ScreenCenter.X - Weapons.WeaponManager.ShotRectangle.Width / 2, TurretSprites[i].ScreenCenter.Y - Weapons.WeaponManager.ShotRectangle.Height / 2), FireAngle * Weapons.WeaponManager.WeaponSpeed);
-				}
-			}
+                        Weapons.WeaponManager.FireWeapon(new Vector2(TurretSprites[i].ScreenCenter.X - Weapons.WeaponManager.ShotRectangle.Width / 2, TurretSprites[i].ScreenCenter.Y - Weapons.WeaponManager.ShotRectangle.Height / 2), FireAngle * Weapons.WeaponManager.WeaponSpeed);
+                    }
+                }
 		}
 
 		public static void Draw(SpriteBatch spriteBatch)
@@ -85,8 +86,23 @@ namespace Battlestar
 			BaseSprite.Draw(spriteBatch);
 			for (int x = 0; x < 3; x++)
 				TurretSprites[x].Draw(spriteBatch);
-		}
-
+		}        
 		#endregion
-	}
+        #region Take Damage and Repair
+        public static void Repair(int repairValue)
+        {
+            BattleStar.HullState = (BattleStar.HullState + repairValue >= 100) ? 100 : BattleStar.HullState + repairValue;
+        }
+
+        public static void Damage(int damageValue)
+        {
+            BattleStar.HullState -= damageValue;
+        }
+
+        public static int getHullState()
+        {
+            return BattleStar.HullState;
+        }
+        #endregion
+    }
 }
