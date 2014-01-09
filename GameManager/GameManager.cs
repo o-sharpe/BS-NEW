@@ -27,7 +27,7 @@ namespace GameManager
         public static void StartNewWave()
         {
             CurrentWave++;
-            CurrentDifficulty += 10;
+			EnemyManager.EnemyManager.SetWave(CurrentWave);
         }
 
         public static void StartNewGame()
@@ -101,7 +101,7 @@ namespace GameManager
 			{
 				EndGame();
 			}
-			if (!EnemyManager.EnemyManager.Active)
+			if (!EnemyManager.EnemyManager.Active || EnemyManager.EnemyManager.IsWaveFinished())
 			{
 				StartNewWave();
 			}

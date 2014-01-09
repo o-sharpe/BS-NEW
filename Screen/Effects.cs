@@ -50,9 +50,7 @@ namespace Screen
 			Vector2 direction;
 			do
 			{
-				direction = new Vector2(
-				rand.Next(0, 100) - 50,
-				rand.Next(0, 100) - 50);
+				direction = new Vector2(rand.Next(0, 100) - 50, rand.Next(0, 100) - 50);
 			} while (direction.Length() == 0);
 			direction.Normalize();
 			direction *= scale;
@@ -117,6 +115,20 @@ namespace Screen
 		public static void AddExplosion(Vector2 location, Vector2 momentum)
 		{
 			AddExplosion(location, momentum, 15, 20, 23, 23, 6.0f, 90, new Color(1.0f, 0.3f, 0f, 0.5f), new Color(0.0f, 0.0f, 0f, 0f));
+		}
+
+		public static void CreateLargeExplosion(Vector2 location)
+		{
+			AddLargeExplosion(location + new Vector2(-10, -10));
+			AddLargeExplosion(location + new Vector2(-10, 10));
+			AddLargeExplosion(location + new Vector2(10, 10));
+			AddLargeExplosion(location + new Vector2(10, -10));
+			AddLargeExplosion(location);
+		}
+
+		private static void AddLargeExplosion(Vector2 location)
+		{
+			AddExplosion(location, Vector2.Zero, 15, 20, 4,	6, 30f,	90,	new Color(1.0f, 0.3f, 0f, 0.5f), new Color(0.0f, 0.0f, 0f, 0f));
 		}
 
 		public static void AddSparksEffect(Vector2 location, Vector2 impactVelocity)

@@ -32,7 +32,7 @@ namespace EnemyManager
 		public Enemy(Vector2 worldLocation, Texture2D texture, Rectangle initialFrame, int collisionRadius, int health)
 		{
 			EnemyBase = new Sprite(worldLocation, texture, initialFrame, Vector2.Zero);
-
+			currentWaypoint = worldLocation;
 			EnemyBase.CollisionRadius = collisionRadius;
 			Health = health;
             MaxHealth = health;
@@ -98,16 +98,18 @@ namespace EnemyManager
 				EnemyBase.Velocity = heading;
 				previousLocation = EnemyBase.ScreenLocation;
 				EnemyBase.Update(gameTime);
-				EnemyBase.Rotation =
-					(float)Math.Atan2(
-					EnemyBase.ScreenLocation.Y - previousLocation.Y,
-					EnemyBase.ScreenLocation.X - previousLocation.X);
+				EnemyBase.Rotation = (float)Math.Atan2(EnemyBase.ScreenLocation.Y - previousLocation.Y,	EnemyBase.ScreenLocation.X - previousLocation.X);
 
 				if (WaypointReached())
 				{
 					if (waypoints.Count > 0)
 					{
 						currentWaypoint = waypoints.Dequeue();
+					}
+					else
+					{
+						Battlestar.BattleStar.Damage(Health);
+						Screen.Effects.CreateLargeExplosion(EnemyBase.ScreenLocation);
 					}
 				}
 			}

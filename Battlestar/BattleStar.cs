@@ -49,9 +49,9 @@ namespace Battlestar
 			for (int x = 1; x < baseFrameCount; x++)
 				BaseSprite.AddFrame(new Rectangle(baseInitialFrame.X + (frameHeight * x), baseInitialFrame.Y, frameWidth, frameHeight));
 
-			for (int x = 0; x < 3; x++)
+			for (int x = 0; x < 5; x++)
 			{
-				TurretSprites.Add(new Sprite(new Vector2(BaseSprite.WorldLocation.X + 50 + x * 100 - (float)15, BaseSprite.WorldCenter.Y - (float)28), textureTurret, turretInitialFrame, Vector2.Zero));
+				TurretSprites.Add(new Sprite(new Vector2(BaseSprite.WorldLocation.X + 35 + x * 50 - (float)15, BaseSprite.WorldCenter.Y - (float)28), textureTurret, turretInitialFrame, Vector2.Zero));
 				TurretSprites[x].RotateTo(new Vector2(0, -1));
 			}
 		}
@@ -77,7 +77,7 @@ namespace Battlestar
 		public static void Draw(SpriteBatch spriteBatch)
 		{
 			BaseSprite.Draw(spriteBatch);
-			for (int x = 0; x < 3; x++)
+			for (int x = 0; x < 5; x++)
 				TurretSprites[x].Draw(spriteBatch);
 		}
 		#endregion

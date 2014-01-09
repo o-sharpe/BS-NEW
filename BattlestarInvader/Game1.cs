@@ -189,6 +189,7 @@ namespace BattlestarInvader
 				Screen.Effects.Draw(spriteBatch);
 				spriteBatch.DrawString(pericles14, string.Format("SCORE: {0}", GameManager.GameManager.Score), new Vector2(30, 45), Color.White);
 				spriteBatch.DrawString(pericles14, string.Format("WAVE: {0}", GameManager.GameManager.CurrentWave), new Vector2(30, 65), Color.White);
+				spriteBatch.DrawString(pericles14, string.Format("HP: {0}", Battlestar.BattleStar.GetHullState()), new Vector2(30, 85), Color.White);
 			}
 
 			if (gameState == GameState.ScoreScreen)

@@ -1,33 +1,3 @@
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\Screen.dll
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\Screen.pdb
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\Screen.pri
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\MonoGame.Framework.dll
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.Direct3D11.dll
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.dll
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.XAudio2.dll
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.Direct2D1.dll
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.DXGI.dll
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.MediaFoundation.dll
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.XInput.dll
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\MonoGame.Framework.xml
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.Direct3D11.xml
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.xml
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.XAudio2.xml
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.Direct2D1.xml
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.DXGI.xml
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.MediaFoundation.xml
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.XInput.xml
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\Screen.dll
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\Screen.pdb
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\priconfig.xml.intermediate
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\layout.resfiles.intermediate
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\resources.resfiles.intermediate
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\pri.resfiles.intermediate
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\priconfig.xml
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\layout.resfiles
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\resources.resfiles
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\pri.resfiles
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\LanguageQualifiers.txt
 F:\Workspace\BS-NEW\Screen\bin\Debug\Screen.dll
 F:\Workspace\BS-NEW\Screen\bin\Debug\Screen.pdb
 F:\Workspace\BS-NEW\Screen\bin\Debug\Screen.pri
@@ -58,3 +28,30 @@ F:\Workspace\BS-NEW\Screen\obj\Debug\layout.resfiles
 F:\Workspace\BS-NEW\Screen\obj\Debug\resources.resfiles
 F:\Workspace\BS-NEW\Screen\obj\Debug\pri.resfiles
 F:\Workspace\BS-NEW\Screen\obj\Debug\LanguageQualifiers.txt
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\Screen.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\Screen.pdb
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\Screen.pri
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\MonoGame.Framework.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.Direct3D11.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.Direct2D1.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.DXGI.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.XInput.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\MonoGame.Framework.xml
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.Direct3D11.xml
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.xml
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.XAudio2.xml
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.Direct2D1.xml
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.DXGI.xml
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.XInput.xml
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\Screen.csprojResolveAssemblyReference.cache
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\Screen.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\Screen.pdb
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\priconfig.xml
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\layout.resfiles
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\resources.resfiles
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\pri.resfiles
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\LanguageQualifiers.txt

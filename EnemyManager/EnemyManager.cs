@@ -15,12 +15,13 @@ namespace EnemyManager
 		public static List<Enemy> Enemies = new List<Enemy>();
 		public static List<Texture2D> enemyTextures = new List<Texture2D>();
 		public static List<Rectangle> enemyInitialFrames = new List<Rectangle>();
-		public static int MaxActiveEnemies = 15;
 		public static bool Active = false;
 
+		private static int MaxActiveEnemies = 15;
+		private static int EnemiesLeftInWave = 15;
 		private static float nextWaveTimer = 0.0f; 
 		private static int MinShipsPerWave = 2;
-		private static int MaxShipsPerWave = 4;
+		private static int MaxShipsPerWave = 6;
 		private static float nextWaveMinTimer = 8.0f;
 		private static float shipSpawnTimer = 0.0f;
 		private static float shipSpawnWaitTime = 0.8f;
@@ -28,6 +29,21 @@ namespace EnemyManager
 		private static List<List<Vector2>> pathWaypoints = new List<List<Vector2>>();
 		private static Dictionary<int, int> waveSpawns = new Dictionary<int, int>();
 		private static Random rand = new Random();
+
+		public static void SetWave(int waveLevel)
+		{
+			MaxActiveEnemies = 10 * waveLevel;
+			EnemiesLeftInWave = 10 * waveLevel;
+			SetUpWaypoints();			
+		}
+
+		public static bool IsWaveFinished()
+		{
+			if (Enemies.Count == 0 && EnemiesLeftInWave == 0)
+				return true;
+			else
+				return false;
+		}
 		#endregion
 
 		#region Initialization
@@ -37,8 +53,6 @@ namespace EnemyManager
 			enemyTextures.Add(baseStarTexture);
 			enemyInitialFrames.Add(raiderInitialFrame);
 			enemyInitialFrames.Add(baseStarInitialFrame);
-
-			SetUpWaypoints();
 		}
 		#endregion
 
@@ -46,7 +60,7 @@ namespace EnemyManager
 		public static void AddRaider(int path)
 		{
 			Enemy newEnemy = new Enemy(pathWaypoints[path][0], enemyTextures[0], enemyInitialFrames[0], 8, 5);
-			for (int x = 0; x < pathWaypoints[path].Count(); x++)
+			for (int x = 1; x < pathWaypoints[path].Count(); x++)
 			{
 				newEnemy.AddWaypoint(pathWaypoints[path][x]);
 			}
@@ -121,9 +135,10 @@ namespace EnemyManager
 			{
 				for (int x = waveSpawns.Count - 1; x >= 0; x--)
 				{
-					if (waveSpawns[x] > 0)
+					if (waveSpawns[x] > 0 && EnemiesLeftInWave > 0)
 					{
 						waveSpawns[x]--;
+						EnemiesLeftInWave--;
 						AddRaider(x);
 					}
 				}
