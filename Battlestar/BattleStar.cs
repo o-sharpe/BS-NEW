@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Input.Touch;
 using Screen;
 using System;
 using System.Collections.Generic;
@@ -61,7 +62,7 @@ namespace Battlestar
 		public static void Update(GameTime gameTime)
 		{
 		//	InputManager.HandleMouseInput(Mouse.GetState(), TurretSprite);	
-
+			InputManager.HandleJoystickTouch(TouchPanel.GetState(), HUD.Joystick.joystick);
 
 			if (Weapons.WeaponManager.CanFireWeapon && FireAngle != Vector2.Zero)
 			{

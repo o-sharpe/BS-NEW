@@ -32,20 +32,23 @@ namespace Battlestar
 			foreach (TouchLocation tl in touchState)
 			{
 				var touchPos = new Vector2(tl.Position.Y, Camera.PhoneHeightAndWidth.Y - tl.Position.X);
-				var test = joystick.ScaledScreenRectangle;
-				var test2 = joystick.ScaledScreenPosition;
-				if (joystick.ScaledScreenRectangle.Contains(Convert.ToInt32(tl.Position.Y), Convert.ToInt32(Camera.PhoneHeightAndWidth.Y) - Convert.ToInt32(tl.Position.X)))
+				if (joystick.ScaledScreenRectangle.Contains(Convert.ToInt32(tl.Position.X), Convert.ToInt32(tl.Position.Y)))
 				{
 					foreach (Sprite turret in BattleStar.TurretSprites)
 					{
 						Vector2 touchFromCenter = Vector2.Zero;
-						touchFromCenter.X = (float)(tl.Position.Y - joystick.ScaledScreenPosition.X);
-						touchFromCenter.Y = (float)(Camera.PhoneHeightAndWidth.Y - tl.Position.X - joystick.ScaledScreenPosition.Y);
+						touchFromCenter.X = (float)(tl.Position.X - joystick.ScaledScreenPosition.X);
+						touchFromCenter.Y = (float)(tl.Position.Y - joystick.ScaledScreenPosition.Y);
 						touchFromCenter.Normalize();
 						BattleStar.FireAngle = touchFromCenter;
 						turret.RotateTo(touchFromCenter);
 					}
 				}
+			}
+
+			if (touchState.Count == 0)
+			{
+				BattleStar.FireAngle = Vector2.Zero;
 			}
 		}
 

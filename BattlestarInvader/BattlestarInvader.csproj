@@ -105,29 +105,9 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-    <Reference Include="MonoGame.Framework">
-      <HintPath>$(MSBuildExtensionsPath)\..\MonoGame\v3.0\Assemblies\Windows8\MonoGame.Framework.dll</HintPath>
-    </Reference>
-    <Reference Include="SharpDX">
-      <HintPath>$(MSBuildExtensionsPath)\..\MonoGame\v3.0\Assemblies\Windows8\SharpDX.dll</HintPath>
-    </Reference>
-    <Reference Include="SharpDX.XInput">
-      <HintPath>$(MSBuildExtensionsPath)\..\MonoGame\v3.0\Assemblies\Windows8\SharpDX.XInput.dll</HintPath>
-    </Reference>
-    <Reference Include="SharpDX.Direct2D1">
-      <HintPath>$(MSBuildExtensionsPath)\..\MonoGame\v3.0\Assemblies\Windows8\SharpDX.Direct2D1.dll</HintPath>
-    </Reference>
-    <Reference Include="SharpDX.Direct3D11">
-      <HintPath>$(MSBuildExtensionsPath)\..\MonoGame\v3.0\Assemblies\Windows8\SharpDX.Direct3D11.dll</HintPath>
-    </Reference>
-    <Reference Include="SharpDX.DXGI">
-      <HintPath>$(MSBuildExtensionsPath)\..\MonoGame\v3.0\Assemblies\Windows8\SharpDX.DXGI.dll</HintPath>
-    </Reference>
-    <Reference Include="SharpDX.MediaFoundation">
-      <HintPath>$(MSBuildExtensionsPath)\..\MonoGame\v3.0\Assemblies\Windows8\SharpDX.MediaFoundation.dll</HintPath>
-    </Reference>
-    <Reference Include="SharpDX.XAudio2">
-      <HintPath>$(MSBuildExtensionsPath)\..\MonoGame\v3.0\Assemblies\Windows8\SharpDX.XAudio2.dll</HintPath>
+    <Reference Include="MonoGame.Framework, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\Windows8\MonoGame.Framework.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -151,7 +131,11 @@
     <Content Include="Content\Graphix\battlestar.xnb" />
     <Content Include="Content\Graphix\turret.xnb" />
     <Content Include="Content\Graphix\viper.xnb" />
-    <None Include="Content\Graphix\baseStar.xnb" />
+    <Content Include="Content\Graphix\baseStar.xnb" />
+    <Content Include="Content\Graphix\boom.xnb" />
+    <Content Include="Content\Graphix\greenLaserRay.xnb" />
+    <Content Include="Content\Graphix\joystick.xnb" />
+    <Content Include="Content\Graphix\raider.xnb" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Logo.png" />
@@ -178,9 +162,21 @@
       <Project>{e12643ff-d475-4199-b627-1131311c8b22}</Project>
       <Name>Battlestar</Name>
     </ProjectReference>
+    <ProjectReference Include="..\EnemyManager\EnemyManager.csproj">
+      <Project>{dabb6d82-6a9b-4fb8-99d3-92785571b63c}</Project>
+      <Name>EnemyManager</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HUD\HUD.csproj">
+      <Project>{e6e23635-8a15-4baf-b555-214472ac6846}</Project>
+      <Name>HUD</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Screen\Screen.csproj">
       <Project>{405f4762-b972-437c-9b95-6d6fff5b9770}</Project>
       <Name>Screen</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Weapons\Weapons.csproj">
+      <Project>{2d9016d8-c068-4e5d-99b7-9b1ea4002d79}</Project>
+      <Name>Weapons</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0' ">

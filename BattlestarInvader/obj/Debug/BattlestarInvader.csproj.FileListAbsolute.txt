@@ -119,3 +119,6 @@ F:\Workspace\BS-NEW\BattlestarInvader\obj\Debug\resources.resfiles
 F:\Workspace\BS-NEW\BattlestarInvader\obj\Debug\pri.resfiles
 F:\Workspace\BS-NEW\BattlestarInvader\obj\Debug\LanguageQualifiers.txt
 F:\Workspace\BS-NEW\BattlestarInvader\obj\Debug\ProjectArchitectures.txt
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\HUD.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\HUD.pdb
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\HUD.pri

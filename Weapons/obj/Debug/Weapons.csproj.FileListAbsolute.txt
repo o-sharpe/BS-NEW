@@ -67,3 +67,7 @@ F:\Workspace\BS-NEW\Weapons\obj\Debug\layout.resfiles
 F:\Workspace\BS-NEW\Weapons\obj\Debug\resources.resfiles
 F:\Workspace\BS-NEW\Weapons\obj\Debug\pri.resfiles
 F:\Workspace\BS-NEW\Weapons\obj\Debug\LanguageQualifiers.txt
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\obj\Debug\priconfig.xml.intermediate
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\obj\Debug\layout.resfiles.intermediate
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\obj\Debug\resources.resfiles.intermediate
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\obj\Debug\pri.resfiles.intermediate
