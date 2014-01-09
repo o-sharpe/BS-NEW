@@ -112,28 +112,28 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="MonoGame.Framework">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\Windows8\MonoGame.Framework.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\MonoGame\v3.0\Assemblies\Windows8\MonoGame.Framework.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\Windows8\SharpDX.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\MonoGame\v3.0\Assemblies\Windows8\SharpDX.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX.Direct2D1">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\Windows8\SharpDX.Direct2D1.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\MonoGame\v3.0\Assemblies\Windows8\SharpDX.Direct2D1.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX.Direct3D11">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\Windows8\SharpDX.Direct3D11.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\MonoGame\v3.0\Assemblies\Windows8\SharpDX.Direct3D11.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX.DXGI">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\Windows8\SharpDX.DXGI.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\MonoGame\v3.0\Assemblies\Windows8\SharpDX.DXGI.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX.MediaFoundation">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\Windows8\SharpDX.MediaFoundation.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\MonoGame\v3.0\Assemblies\Windows8\SharpDX.MediaFoundation.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX.XAudio2">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\Windows8\SharpDX.XAudio2.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\MonoGame\v3.0\Assemblies\Windows8\SharpDX.XAudio2.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX.XInput">
-      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\Windows8\SharpDX.XInput.dll</HintPath>
+      <HintPath>C:\Program Files (x86)\MonoGame\v3.0\Assemblies\Windows8\SharpDX.XInput.dll</HintPath>
     </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0' ">

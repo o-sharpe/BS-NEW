@@ -29,3 +29,33 @@ c:\users\oliver\documents\visual studio 2012\Projects\Battlestar Invader\Screen\
 c:\users\oliver\documents\visual studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\pri.resfiles
 c:\users\oliver\documents\visual studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\LanguageQualifiers.txt
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\MonoGame.Framework.xml
+F:\Workspace\BS-NEW\Screen\bin\Debug\Screen.dll
+F:\Workspace\BS-NEW\Screen\bin\Debug\Screen.pdb
+F:\Workspace\BS-NEW\Screen\bin\Debug\Screen.pri
+F:\Workspace\BS-NEW\Screen\bin\Debug\MonoGame.Framework.dll
+F:\Workspace\BS-NEW\Screen\bin\Debug\SharpDX.Direct2D1.dll
+F:\Workspace\BS-NEW\Screen\bin\Debug\SharpDX.Direct3D11.dll
+F:\Workspace\BS-NEW\Screen\bin\Debug\SharpDX.dll
+F:\Workspace\BS-NEW\Screen\bin\Debug\SharpDX.DXGI.dll
+F:\Workspace\BS-NEW\Screen\bin\Debug\SharpDX.MediaFoundation.dll
+F:\Workspace\BS-NEW\Screen\bin\Debug\SharpDX.XAudio2.dll
+F:\Workspace\BS-NEW\Screen\bin\Debug\SharpDX.XInput.dll
+F:\Workspace\BS-NEW\Screen\bin\Debug\SharpDX.xml
+F:\Workspace\BS-NEW\Screen\bin\Debug\SharpDX.Direct2D1.xml
+F:\Workspace\BS-NEW\Screen\bin\Debug\SharpDX.Direct3D11.xml
+F:\Workspace\BS-NEW\Screen\bin\Debug\SharpDX.DXGI.xml
+F:\Workspace\BS-NEW\Screen\bin\Debug\SharpDX.MediaFoundation.xml
+F:\Workspace\BS-NEW\Screen\bin\Debug\SharpDX.XAudio2.xml
+F:\Workspace\BS-NEW\Screen\bin\Debug\SharpDX.XInput.xml
+F:\Workspace\BS-NEW\Screen\obj\Debug\Screen.csprojResolveAssemblyReference.cache
+F:\Workspace\BS-NEW\Screen\obj\Debug\Screen.dll
+F:\Workspace\BS-NEW\Screen\obj\Debug\Screen.pdb
+F:\Workspace\BS-NEW\Screen\obj\Debug\priconfig.xml.intermediate
+F:\Workspace\BS-NEW\Screen\obj\Debug\layout.resfiles.intermediate
+F:\Workspace\BS-NEW\Screen\obj\Debug\resources.resfiles.intermediate
+F:\Workspace\BS-NEW\Screen\obj\Debug\pri.resfiles.intermediate
+F:\Workspace\BS-NEW\Screen\obj\Debug\priconfig.xml
+F:\Workspace\BS-NEW\Screen\obj\Debug\layout.resfiles
+F:\Workspace\BS-NEW\Screen\obj\Debug\resources.resfiles
+F:\Workspace\BS-NEW\Screen\obj\Debug\pri.resfiles
+F:\Workspace\BS-NEW\Screen\obj\Debug\LanguageQualifiers.txt

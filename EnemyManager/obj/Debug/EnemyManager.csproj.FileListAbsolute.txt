@@ -28,3 +28,36 @@ C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyMa
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\resources.resfiles
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\pri.resfiles
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\LanguageQualifiers.txt
+F:\Workspace\BS-NEW\EnemyManager\obj\Debug\EnemyManager.csprojResolveAssemblyReference.cache
+F:\Workspace\BS-NEW\EnemyManager\bin\Debug\EnemyManager.dll
+F:\Workspace\BS-NEW\EnemyManager\bin\Debug\EnemyManager.pdb
+F:\Workspace\BS-NEW\EnemyManager\bin\Debug\EnemyManager.pri
+F:\Workspace\BS-NEW\EnemyManager\bin\Debug\MonoGame.Framework.dll
+F:\Workspace\BS-NEW\EnemyManager\bin\Debug\Screen.dll
+F:\Workspace\BS-NEW\EnemyManager\bin\Debug\SharpDX.dll
+F:\Workspace\BS-NEW\EnemyManager\bin\Debug\SharpDX.XAudio2.dll
+F:\Workspace\BS-NEW\EnemyManager\bin\Debug\SharpDX.Direct3D11.dll
+F:\Workspace\BS-NEW\EnemyManager\bin\Debug\SharpDX.Direct2D1.dll
+F:\Workspace\BS-NEW\EnemyManager\bin\Debug\SharpDX.DXGI.dll
+F:\Workspace\BS-NEW\EnemyManager\bin\Debug\SharpDX.MediaFoundation.dll
+F:\Workspace\BS-NEW\EnemyManager\bin\Debug\SharpDX.XInput.dll
+F:\Workspace\BS-NEW\EnemyManager\bin\Debug\Screen.pdb
+F:\Workspace\BS-NEW\EnemyManager\bin\Debug\Screen.pri
+F:\Workspace\BS-NEW\EnemyManager\bin\Debug\SharpDX.xml
+F:\Workspace\BS-NEW\EnemyManager\bin\Debug\SharpDX.XAudio2.xml
+F:\Workspace\BS-NEW\EnemyManager\bin\Debug\SharpDX.Direct3D11.xml
+F:\Workspace\BS-NEW\EnemyManager\bin\Debug\SharpDX.Direct2D1.xml
+F:\Workspace\BS-NEW\EnemyManager\bin\Debug\SharpDX.DXGI.xml
+F:\Workspace\BS-NEW\EnemyManager\bin\Debug\SharpDX.MediaFoundation.xml
+F:\Workspace\BS-NEW\EnemyManager\bin\Debug\SharpDX.XInput.xml
+F:\Workspace\BS-NEW\EnemyManager\obj\Debug\EnemyManager.dll
+F:\Workspace\BS-NEW\EnemyManager\obj\Debug\EnemyManager.pdb
+F:\Workspace\BS-NEW\EnemyManager\obj\Debug\priconfig.xml.intermediate
+F:\Workspace\BS-NEW\EnemyManager\obj\Debug\layout.resfiles.intermediate
+F:\Workspace\BS-NEW\EnemyManager\obj\Debug\resources.resfiles.intermediate
+F:\Workspace\BS-NEW\EnemyManager\obj\Debug\pri.resfiles.intermediate
+F:\Workspace\BS-NEW\EnemyManager\obj\Debug\priconfig.xml
+F:\Workspace\BS-NEW\EnemyManager\obj\Debug\layout.resfiles
+F:\Workspace\BS-NEW\EnemyManager\obj\Debug\resources.resfiles
+F:\Workspace\BS-NEW\EnemyManager\obj\Debug\pri.resfiles
+F:\Workspace\BS-NEW\EnemyManager\obj\Debug\LanguageQualifiers.txt
