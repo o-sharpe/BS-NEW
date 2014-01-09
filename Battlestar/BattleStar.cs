@@ -100,7 +100,7 @@ namespace Battlestar
 
 		public static void ResetHullState()
 		{
-			HullState = 100;
+			HullState = 1;
 		}
 		#endregion
 	}
