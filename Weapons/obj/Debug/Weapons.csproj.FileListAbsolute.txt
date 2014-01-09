@@ -33,7 +33,6 @@ F:\Workspace\BS-NEW\Weapons\obj\Debug\LanguageQualifiers.txt
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\bin\Debug\Weapons.dll
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\bin\Debug\Weapons.pdb
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\bin\Debug\Weapons.pri
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\bin\Debug\EnemyManager.dll
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\bin\Debug\MonoGame.Framework.dll
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\bin\Debug\Screen.dll
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\bin\Debug\SharpDX.Direct3D11.dll
@@ -43,8 +42,6 @@ C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\bin\Debug\SharpDX.DXGI.dll
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\bin\Debug\SharpDX.MediaFoundation.dll
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\bin\Debug\SharpDX.XInput.dll
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\bin\Debug\EnemyManager.pdb
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\bin\Debug\EnemyManager.pri
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\bin\Debug\Screen.pdb
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\bin\Debug\Screen.pri
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\bin\Debug\MonoGame.Framework.xml
@@ -58,10 +55,6 @@ C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\obj\Debug\Weapons.csprojResolveAssemblyReference.cache
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\obj\Debug\Weapons.dll
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\obj\Debug\Weapons.pdb
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\obj\Debug\priconfig.xml.intermediate
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\obj\Debug\layout.resfiles.intermediate
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\obj\Debug\resources.resfiles.intermediate
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\obj\Debug\pri.resfiles.intermediate
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\obj\Debug\priconfig.xml
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\obj\Debug\layout.resfiles
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Weapons\obj\Debug\resources.resfiles

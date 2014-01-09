@@ -43,7 +43,6 @@ C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battles
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\bin\Debug\MonoGame.Framework.dll
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\bin\Debug\Screen.dll
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\bin\Debug\Weapons.dll
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\bin\Debug\EnemyManager.dll
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\bin\Debug\SharpDX.Direct3D11.dll
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\bin\Debug\SharpDX.dll
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\bin\Debug\SharpDX.XAudio2.dll
@@ -58,8 +57,6 @@ C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battles
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\bin\Debug\Weapons.pdb
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\bin\Debug\Weapons.pri
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\bin\Debug\MonoGame.Framework.xml
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\bin\Debug\EnemyManager.pdb
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\bin\Debug\EnemyManager.pri
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\bin\Debug\SharpDX.Direct3D11.xml
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\bin\Debug\SharpDX.xml
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\bin\Debug\SharpDX.XAudio2.xml
@@ -70,10 +67,6 @@ C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battles
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\obj\Debug\Battlestar.csprojResolveAssemblyReference.cache
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\obj\Debug\Battlestar.dll
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\obj\Debug\Battlestar.pdb
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\obj\Debug\priconfig.xml.intermediate
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\obj\Debug\layout.resfiles.intermediate
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\obj\Debug\resources.resfiles.intermediate
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\obj\Debug\pri.resfiles.intermediate
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\obj\Debug\priconfig.xml
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\obj\Debug\layout.resfiles
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\obj\Debug\resources.resfiles

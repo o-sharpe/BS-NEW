@@ -17,6 +17,7 @@
     <SccLocalPath>SAK</SccLocalPath>
     <SccAuxPath>SAK</SccAuxPath>
     <SccProvider>SAK</SccProvider>
+    <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -138,6 +139,7 @@
     <Content Include="Content\Graphix\raider.xnb" />
     <Content Include="Content\Graphix\gamelogo.xnb" />
     <Content Include="Content\Graphix\return.xnb" />
+    <Content Include="Content\Graphix\redLaserRay.xnb" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Logo.png" />
@@ -168,9 +170,17 @@
       <Project>{dabb6d82-6a9b-4fb8-99d3-92785571b63c}</Project>
       <Name>EnemyManager</Name>
     </ProjectReference>
+    <ProjectReference Include="..\GameManager\GameManager.csproj">
+      <Project>{f82aac65-3a89-4942-9f63-267a8f9bee7c}</Project>
+      <Name>GameManager</Name>
+    </ProjectReference>
     <ProjectReference Include="..\HUD\HUD.csproj">
       <Project>{e6e23635-8a15-4baf-b555-214472ac6846}</Project>
       <Name>HUD</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PhysicsManager\PhysicsManager.csproj">
+      <Project>{73cdc954-3e41-492c-ab88-2afea48121b6}</Project>
+      <Name>PhysicsManager</Name>
     </ProjectReference>
     <ProjectReference Include="..\Screen\Screen.csproj">
       <Project>{405f4762-b972-437c-9b95-6d6fff5b9770}</Project>

@@ -30,7 +30,8 @@ namespace BattlestarInvader
 		Texture2D battleStar;
 		Texture2D turret;
 		Texture2D joystick;
-		Texture2D laser;
+		Texture2D playerLaser;
+		Texture2D enemyLaser;
 		Texture2D raider;
 		Texture2D baseStar;
 		Texture2D boom;
@@ -90,7 +91,8 @@ namespace BattlestarInvader
 			battleStar = Content.Load<Texture2D>(@"Graphix\battleStar");
 			turret = Content.Load<Texture2D>(@"Graphix\turret");
 			joystick = Content.Load<Texture2D>(@"Graphix\joystick");
-			laser = Content.Load<Texture2D>(@"Graphix\greenLaserRay");
+			playerLaser = Content.Load<Texture2D>(@"Graphix\greenLaserRay");
+			enemyLaser = Content.Load<Texture2D>(@"Graphix\redLaserRay");
 			raider = Content.Load<Texture2D>(@"Graphix\raider");
 			baseStar = Content.Load<Texture2D>(@"Graphix\baseStar");
 			boom = Content.Load<Texture2D>(@"Graphix\boom");
@@ -99,11 +101,9 @@ namespace BattlestarInvader
 
 			// We Initialize the Managers
 			Screen.StarField.Initialize(this.graphics.PreferredBackBufferWidth, this.graphics.PreferredBackBufferHeight, 400, Vector2.Zero, star, new Rectangle(0, 0, 2, 2));
-			Battlestar.BattleStar.Initialize(battleStar, new Rectangle(0, 0, 300, 109), 1, turret, new Rectangle(0, 0, 44, 30), new Vector2(this.graphics.PreferredBackBufferWidth / 2 - 150, this.graphics.PreferredBackBufferHeight / 3 * 2));
-			for (int x = 0; x < Battlestar.BattleStar.TurretSprites.Count; x++)
-				HUD.Buttons.AddButton(turret, new Rectangle(0, 0, 44, 30), new Vector2(this.graphics.PreferredBackBufferWidth - 70, 200), pericles14);
-			HUD.Joystick.Initialize(joystick, new Rectangle(0, 0, 180, 180), new Vector2(0, 250));
-			Weapons.WeaponManager.Initialize(laser, new Rectangle(0, 0, 31, 8));
+			Battlestar.BattleStar.Initialize(battleStar, new Rectangle(0, 0, 300, 109), 1, turret, new Rectangle(0, 0, 44, 30), new Vector2(this.graphics.PreferredBackBufferWidth / 2 - 150, this.graphics.PreferredBackBufferHeight / 5 * 4));
+			HUD.Joystick.Initialize(joystick, new Rectangle(0, 0, 180, 180), new Vector2(1100, 250));
+			Weapons.WeaponManager.Initialize(playerLaser, enemyLaser, new Rectangle(0, 0, 31, 8), new Rectangle(0, 0, 31, 8));
 			EnemyManager.EnemyManager.Initialize(raider, new Rectangle(0, 0, 25, 16), baseStar, new Rectangle(0, 0, 300, 146));
 			Screen.Effects.Initialize(star, new Rectangle(0, 0, 2, 2), boom, new Rectangle(0, 0, 64, 64));
 		}
@@ -134,6 +134,10 @@ namespace BattlestarInvader
 					Weapons.WeaponManager.Update(gameTime);
 					EnemyManager.EnemyManager.Update(gameTime);
 					Screen.Effects.Update(gameTime);
+					PhysicsManager.PhysicsManager.Update(gameTime);
+					GameManager.GameManager.Update(gameTime);
+					if (Battlestar.BattleStar.getHullState() < 1)
+						gameState = GameState.ScoreScreen;
 					break;
 				case GameState.ScoreScreen:
 					gameState = ManageInput(TouchPanel.GetState());
@@ -183,6 +187,7 @@ namespace BattlestarInvader
 				Weapons.WeaponManager.Draw(spriteBatch);
 				EnemyManager.EnemyManager.Draw(spriteBatch);
 				Screen.Effects.Draw(spriteBatch);
+				spriteBatch.DrawString(pericles14, string.Format("SCORE: {0}", GameManager.GameManager.Score), new Vector2(30, 45), Color.White);
 			}
 
 			if (gameState == GameState.ScoreScreen)
@@ -214,7 +219,10 @@ namespace BattlestarInvader
 				foreach (TouchLocation tl in touchCollection)
 				{
 					if (btPlay.Contains(new Point((int)tl.Position.X, (int)tl.Position.Y)))
+					{
+						GameManager.GameManager.StartNewGame();
 						return GameState.Playing;
+					}
 					else if (btScores.Contains(new Point((int)tl.Position.X, (int)tl.Position.Y)))
 						return GameState.ScoreScreen;
 				}

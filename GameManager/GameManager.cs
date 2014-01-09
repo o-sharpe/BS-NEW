@@ -9,10 +9,12 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text.RegularExpressions;
 using System.Collections.ObjectModel;
+using Microsoft.Xna.Framework;
+using Battlestar;
 
 namespace GameManager
 {
-    static class GameManager
+    public static class GameManager
     {
         #region Declarations
         public static int Score { get; set; }
@@ -30,20 +32,22 @@ namespace GameManager
 
         public static void StartNewGame()
         {
-            CurrentDifficulty = 0;
+			EnemyManager.EnemyManager.Active = true;
+			CurrentDifficulty = 0;
             CurrentWave = 0;
             Score = 0;
             StartNewWave();
         }
 
-        public static void updateScore(EnemyManager.Enemy enemy)
+        public static void UpdateScore(EnemyManager.Enemy enemy)
         {
             Score += enemy.MaxHealth;
         }
 
-        public static void EndGame()
+        private static void EndGame()
         {
-            LoadScores();
+			EnemyManager.EnemyManager.Active = false;
+			LoadScores();
             var hasTobeStored = false;
             foreach(int score in itemCollection){
                 if(score < Score)
@@ -62,12 +66,24 @@ namespace GameManager
         public async static void LoadScores()
         {
             StorageFile localFile;
-            localFile = await ApplicationData.Current.LocalFolder.GetFileAsync("localData.xml");
-            if (localFile != null)
-            {
-                string localData = await FileIO.ReadTextAsync(localFile);
-                itemCollection = ObjectSerializer<ObservableCollection<int>>.FromXml(localData);
-            }
+			try
+			{
+				localFile = await ApplicationData.Current.LocalFolder.GetFileAsync("localData.xml");
+			}
+			catch (FileNotFoundException)
+			{
+				localFile = null;
+			}
+			if (localFile != null)
+			{
+				string localData = await FileIO.ReadTextAsync(localFile);
+				if (!(localData == ""))
+					itemCollection = ObjectSerializer<ObservableCollection<int>>.FromXml(localData);
+				else
+					itemCollection = new ObservableCollection<int>();
+			}
+			else
+				itemCollection = new ObservableCollection<int>();
         }
 
         public async static void SaveScores()
@@ -79,6 +95,18 @@ namespace GameManager
                 await FileIO.WriteTextAsync(localFile, localData);
             }
         }
+
+		public static void Update(GameTime gameTime)
+		{
+			if (BattleStar.getHullState() < 1)
+			{
+				EndGame();
+			}
+			if (!EnemyManager.EnemyManager.Active)
+			{
+				StartNewWave();
+			}
+		}
         #endregion
 
     }

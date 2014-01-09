@@ -113,9 +113,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Battlestar\Battlestar.csproj">
+      <Project>{e12643ff-d475-4199-b627-1131311c8b22}</Project>
+      <Name>Battlestar</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Screen\Screen.csproj">
       <Project>{405f4762-b972-437c-9b95-6d6fff5b9770}</Project>
       <Name>Screen</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Weapons\Weapons.csproj">
+      <Project>{2d9016d8-c068-4e5d-99b7-9b1ea4002d79}</Project>
+      <Name>Weapons</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0' ">

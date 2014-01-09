@@ -67,6 +67,7 @@ C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battles
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\BattlestarInvader.build.appxrecipe
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\Battlestar.dll
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\EnemyManager.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\GameManager.dll
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\HUD.dll
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\MonoGame.Framework.dll
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\Screen.dll
@@ -82,6 +83,8 @@ C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battles
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\Battlestar.pri
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\EnemyManager.pdb
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\EnemyManager.pri
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\GameManager.pdb
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\GameManager.pri
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\HUD.pdb
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\HUD.pri
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\Screen.pdb
@@ -123,3 +126,6 @@ C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battles
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\obj\Debug\pri.resfiles
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\obj\Debug\LanguageQualifiers.txt
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\obj\Debug\ProjectArchitectures.txt
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\PhysicsManager.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\PhysicsManager.pdb
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\Debug\PhysicsManager.pri

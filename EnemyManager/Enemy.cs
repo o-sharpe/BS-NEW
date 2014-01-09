@@ -21,6 +21,12 @@ namespace EnemyManager
         public int MaxHealth = 10;
 		public bool Destroyed = false;
 		private int collisionRadius = 16;
+
+		public Vector2 gunOffset = new Vector2(8, 8);
+		private Queue<Vector2> waypoints = new Queue<Vector2>();
+		private Vector2 currentWaypoint = Vector2.Zero;
+		private int enemyRadius = 15;
+		private Vector2 previousLocation = Vector2.Zero;
 		#endregion
 
 		#region Constructor
@@ -36,12 +42,75 @@ namespace EnemyManager
 		}
 		#endregion
 
+		public bool WaypointReached()
+		{
+			if (Vector2.Distance(EnemyBase.ScreenLocation, currentWaypoint) < (float)EnemyBase.Source.Width / 2)
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
+
+		public bool IsActive()
+		{
+			if (Destroyed)
+			{
+				return false;
+			}
+
+			if (waypoints.Count > 0)
+			{
+				return true;
+			}
+
+			if (WaypointReached())
+			{
+				return false;
+			}
+
+			return true;
+		}
+
+		public void AddWaypoint(Vector2 waypoint)
+		{
+			waypoints.Enqueue(waypoint);
+		}
+
 		#region Update and Draw
 		public void Update(GameTime gameTime)
 		{
-			if (!Destroyed)
+			if (Health == 0)
 			{
+				Destroyed = true;
+				Screen.Effects.AddExplosion(EnemyBase.WorldCenter, EnemyBase.Velocity / 30);
+				//Screen.Effects.AddExplosion(enemy.EnemyBase.WorldCenter, enemy.EnemyBase.Velocity / 30);
+			}
+			if (IsActive())
+			{
+				Vector2 heading = currentWaypoint - EnemyBase.ScreenLocation;
+				if (heading != Vector2.Zero)
+				{
+					heading.Normalize();
+				}
+				heading *= EnemySpeed;
+				EnemyBase.Velocity = heading;
+				previousLocation = EnemyBase.ScreenLocation;
+				EnemyBase.Update(gameTime);
+				EnemyBase.Rotation =
+					(float)Math.Atan2(
+					EnemyBase.ScreenLocation.Y - previousLocation.Y,
+					EnemyBase.ScreenLocation.X - previousLocation.X);
 
+				if (WaypointReached())
+				{
+					if (waypoints.Count > 0)
+					{
+						currentWaypoint = waypoints.Dequeue();
+					}
+				}
 			}
 		}
 

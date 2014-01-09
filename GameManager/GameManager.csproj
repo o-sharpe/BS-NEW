@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>cd6222dc-94f5-4233-b625-b5c3684717da</ProjectGuid>
+    <ProjectGuid>{F82AAC65-3A89-4942-9F63-267A8F9BEE7C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>GameManager</RootNamespace>
@@ -100,10 +100,25 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <ProjectReference Include="..\Battlestar\Battlestar.csproj">
+      <Project>{e12643ff-d475-4199-b627-1131311c8b22}</Project>
+      <Name>Battlestar</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\EnemyManager\EnemyManager.csproj">
+      <Project>{dabb6d82-6a9b-4fb8-99d3-92785571b63c}</Project>
+      <Name>EnemyManager</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="GameManager.cs" />
+    <Compile Include="ObjectSerializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework, Version=3.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\MonoGame\v3.0\Assemblies\Windows8\MonoGame.Framework.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '11.0' ">
     <VisualStudioVersion>11.0</VisualStudioVersion>
@@ -116,5 +131,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-
 </Project>

@@ -104,10 +104,6 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
-    <ProjectReference Include="..\EnemyManager\EnemyManager.csproj">
-      <Project>{dabb6d82-6a9b-4fb8-99d3-92785571b63c}</Project>
-      <Name>EnemyManager</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Screen\Screen.csproj">
       <Project>{405f4762-b972-437c-9b95-6d6fff5b9770}</Project>
       <Name>Screen</Name>

@@ -1,5 +1,4 @@
-﻿using EnemyManager;
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Screen;
 using System;
@@ -13,9 +12,12 @@ namespace Weapons
 	public static class WeaponManager
 	{
 		#region declarations
-		static public List<Particle> Shots = new List<Particle>();
-		static public Texture2D Texture;
-		static public Rectangle ShotRectangle = new Rectangle();
+		static public List<Particle> PlayerShots = new List<Particle>();
+		static public List<Particle> EnemyShots = new List<Particle>();
+		static public Texture2D PlayerTexture;
+		static public Texture2D EnemyTexture;
+		static public Rectangle PlayerShotRectangle = new Rectangle();
+		static public Rectangle EnemyShotRectangle = new Rectangle();
 		static public float WeaponSpeed = 600f;
 
 		static private float shotTimer = 0f;
@@ -23,22 +25,17 @@ namespace Weapons
 		public enum WeaponType { Normal };
 		static public WeaponType CurrentWeaponType = WeaponType.Normal;
 		static public float WeaponTimeRemaining = 0.0f;
-		static private float weaponTimeDefault = 30.0f;
-
-		static public List<Sprite> PowerUps = new List<Sprite>();
-		static private int maxActivePowerups = 5;
-		static private float timeSinceLastPowerup = 0.0f;
-		static private float timeBetweenPowerups = 2.0f;
-		static private Random rand = new Random();
 
 		#endregion
 
 		#region Init
 
-		public static void Initialize(Texture2D texture, Rectangle shotRectangle)
+		public static void Initialize(Texture2D playerTexture, Texture2D enemyTexture, Rectangle playerShotRectangle, Rectangle enemyShotRectangle)
 		{
-			Texture = texture;
-			ShotRectangle = shotRectangle;
+			PlayerTexture = playerTexture;
+			EnemyTexture = enemyTexture;
+			PlayerShotRectangle = playerShotRectangle;
+			EnemyShotRectangle = enemyShotRectangle;
 		}
 
 		#endregion
@@ -64,29 +61,57 @@ namespace Weapons
 
 		#region Effects Management Methods
 
-		private static void AddShot(Vector2 location, Vector2 velocity,	int frame)
+		private static void AddShot(Vector2 location, Vector2 velocity,	int frame, bool isPlayer)
 		{
-			Particle shot = new Particle(
-				location,
-				Texture,
-				ShotRectangle,
-				velocity,
-				Vector2.Zero,
-				400f,
-				120,
-				Color.White,
-				Color.White);
+			if (isPlayer)
+			{
+				Particle shot = new Particle(
+					location,
+					PlayerTexture,
+					PlayerShotRectangle,
+					velocity,
+					Vector2.Zero,
+					400f,
+					120,
+					Color.White,
+					Color.White);
 
-			shot.AddFrame(new Rectangle(
-				ShotRectangle.X + ShotRectangle.Width,
-				ShotRectangle.Y,
-				ShotRectangle.Width,
-				ShotRectangle.Height));
+				shot.AddFrame(new Rectangle(
+					PlayerShotRectangle.X + PlayerShotRectangle.Width,
+					PlayerShotRectangle.Y,
+					PlayerShotRectangle.Width,
+					PlayerShotRectangle.Height));
 
-			shot.Animate = false;
-			shot.Frame = frame;
-			shot.RotateTo(velocity);
-			Shots.Add(shot);
+				shot.Animate = false;
+				shot.Frame = frame;
+				shot.RotateTo(velocity);
+				PlayerShots.Add(shot);
+			}
+			else
+			{
+				Particle shot = new Particle(
+					location,
+					EnemyTexture,
+					EnemyShotRectangle,
+					velocity,
+					Vector2.Zero,
+					400f,
+					120,
+					Color.White,
+					Color.White);
+
+				shot.AddFrame(new Rectangle(
+					PlayerShotRectangle.X + PlayerShotRectangle.Width,
+					PlayerShotRectangle.Y,
+					PlayerShotRectangle.Width,
+					PlayerShotRectangle.Height));
+
+				shot.Animate = false;
+				shot.Frame = frame;
+				shot.RotateTo(velocity);
+				EnemyShots.Add(shot);
+			}
+
 		}
 
 
@@ -117,12 +142,12 @@ namespace Weapons
 			}
 		}
 
-		public static void FireWeapon(Vector2 location, Vector2 velocity)
+		public static void FireWeapon(Vector2 location, Vector2 velocity, bool isPlayer)
 		{
 			switch (CurrentWeaponType)
 			{
 				case WeaponType.Normal:
-					AddShot(location, velocity, 0);
+					AddShot(location, velocity, 0, isPlayer);
 					break;
 			}
 
@@ -213,32 +238,32 @@ namespace Weapons
 		//	}
 		//}
 
-		private static void checkShotEnemyImpacts(Sprite shot)
-		{
-			if (shot.Expired)
-			{
-				return;
-			}
+		//private static void checkShotEnemyImpacts(Sprite shot)
+		//{
+		//	if (shot.Expired)
+		//	{
+		//		return;
+		//	}
 
-			foreach (Enemy enemy in EnemyManager.EnemyManager.Enemies)
-			{
-				if (!enemy.Destroyed)
-				{
-					if (shot.IsCircleColliding(	enemy.EnemyBase.WorldCenter, enemy.EnemyBase.CollisionRadius))
-					{
-						shot.Expired = true;
-						Screen.Effects.AddSparksEffect(shot.WorldCenter, shot.Velocity);
-						enemy.Health--;
-						if (enemy.Health == 0)
-						{
-							enemy.Destroyed = true;
-							Screen.Effects.AddExplosion(shot.WorldCenter, shot.Velocity / 30);
-							//Screen.Effects.AddExplosion(enemy.EnemyBase.WorldCenter, enemy.EnemyBase.Velocity / 30);
-						}
-					}
-				}
-			}
-		}
+		//	foreach (Enemy enemy in EnemyManager.EnemyManager.Enemies)
+		//	{
+		//		if (!enemy.Destroyed)
+		//		{
+		//			if (shot.IsCircleColliding(	enemy.EnemyBase.WorldCenter, enemy.EnemyBase.CollisionRadius))
+		//			{
+		//				shot.Expired = true;
+		//				Screen.Effects.AddSparksEffect(shot.WorldCenter, shot.Velocity);
+		//				enemy.Health--;
+		//				if (enemy.Health == 0)
+		//				{
+		//					enemy.Destroyed = true;
+		//					Screen.Effects.AddExplosion(shot.WorldCenter, shot.Velocity / 30);
+		//					//Screen.Effects.AddExplosion(enemy.EnemyBase.WorldCenter, enemy.EnemyBase.Velocity / 30);
+		//				}
+		//			}
+		//		}
+		//	}
+		//}
 
 		#endregion
 
@@ -249,31 +274,33 @@ namespace Weapons
 			shotTimer += elapsed;
 			checkWeaponUpgradeExpire(elapsed);
 
-			for (int x = Shots.Count - 1; x >= 0; x--)
+			for (int x = PlayerShots.Count - 1; x >= 0; x--)
 			{
-				Shots[x].Update(gameTime);
+				PlayerShots[x].Update(gameTime);
 
-				//checkShotWallImpacts(Shots[x]);
-				checkShotEnemyImpacts(Shots[x]);
-
-				if (Shots[x].Expired)
+				if (PlayerShots[x].Expired)
 				{
-					Shots.RemoveAt(x);
+					PlayerShots.RemoveAt(x);
 				}
 			}
+			for (int x = EnemyShots.Count - 1; x >= 0; x--)
+			{
+				EnemyShots[x].Update(gameTime);
 
-			//checkPowerupSpawns(elapsed);
-			//checkPowerupPickups();
+				if (EnemyShots[x].Expired)
+				{
+					EnemyShots.RemoveAt(x);
+				}
+			}
 		}
 
 		static public void Draw(SpriteBatch spriteBatch)
 		{
-			foreach (Particle sprite in Shots)
+			foreach (Particle sprite in PlayerShots)
 			{
 				sprite.Draw(spriteBatch);
 			}
-
-			foreach (Sprite sprite in PowerUps)
+			foreach (Particle sprite in EnemyShots)
 			{
 				sprite.Draw(spriteBatch);
 			}
