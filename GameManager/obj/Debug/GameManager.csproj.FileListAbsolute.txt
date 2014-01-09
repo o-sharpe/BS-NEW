@@ -76,6 +76,10 @@ C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\GameMan
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\GameManager\obj\Debug\GameManager.csprojResolveAssemblyReference.cache
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\GameManager\obj\Debug\GameManager.dll
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\GameManager\obj\Debug\GameManager.pdb
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\GameManager\obj\Debug\priconfig.xml.intermediate
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\GameManager\obj\Debug\layout.resfiles.intermediate
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\GameManager\obj\Debug\resources.resfiles.intermediate
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\GameManager\obj\Debug\pri.resfiles.intermediate
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\GameManager\obj\Debug\priconfig.xml
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\GameManager\obj\Debug\layout.resfiles
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\GameManager\obj\Debug\resources.resfiles

@@ -17,14 +17,14 @@ namespace EnemyManager
 		public static List<Rectangle> enemyInitialFrames = new List<Rectangle>();
 		public static bool Active = false;
 
-		private static int MaxActiveEnemies = 15;
+		private static int MaxActiveEnemies = 10;
 		private static int EnemiesLeftInWave = 15;
 		private static float nextWaveTimer = 0.0f; 
-		private static int MinShipsPerWave = 2;
+		private static int MinShipsPerWave = 4;
 		private static int MaxShipsPerWave = 6;
-		private static float nextWaveMinTimer = 8.0f;
+		private static float nextWaveMinTimer = 4.0f;
 		private static float shipSpawnTimer = 0.0f;
-		private static float shipSpawnWaitTime = 0.8f;
+		private static float shipSpawnWaitTime = 0.6f;
 		private static float shipShotChance = 0.2f;
 		private static List<List<Vector2>> pathWaypoints = new List<List<Vector2>>();
 		private static Dictionary<int, int> waveSpawns = new Dictionary<int, int>();
@@ -32,9 +32,13 @@ namespace EnemyManager
 
 		public static void SetWave(int waveLevel)
 		{
-			MaxActiveEnemies = 10 * waveLevel;
-			EnemiesLeftInWave = 10 * waveLevel;
-			SetUpWaypoints();			
+			Battlestar.BattleStar.Repair(waveLevel * 4);
+			MaxActiveEnemies = Math.Min(waveLevel * 3, 10);
+			EnemiesLeftInWave = 7 * waveLevel;
+			if (waveLevel % 5 == 0)
+				AddBaseStar();
+			shipShotChance += (float)(0.01 * waveLevel);
+			SetUpWaypoints();
 		}
 
 		public static bool IsWaveFinished()
@@ -67,9 +71,12 @@ namespace EnemyManager
 			Enemies.Add(newEnemy);
 		}
 
-		public static void AddBaseStar(Vector2 worldLocation)
+		public static void AddBaseStar()
 		{
-			Enemy newEnemy = new Enemy(worldLocation, enemyTextures[1], enemyInitialFrames[1], 75, 100);
+			Enemy newEnemy = new Enemy(new Vector2(490, -200), enemyTextures[1], enemyInitialFrames[1], 75, 100);
+			newEnemy.AddWaypoint(new Vector2(490, -400));
+			newEnemy.AddWaypoint(new Vector2(490, 300));
+			newEnemy.gunOffset = new Vector2(150, 78);
 			Enemies.Add(newEnemy);
 		}
 
@@ -135,7 +142,7 @@ namespace EnemyManager
 			{
 				for (int x = waveSpawns.Count - 1; x >= 0; x--)
 				{
-					if (waveSpawns[x] > 0 && EnemiesLeftInWave > 0)
+					if (waveSpawns[x] > 0 && EnemiesLeftInWave > 0 && Enemies.Count <= MaxActiveEnemies)
 					{
 						waveSpawns[x]--;
 						EnemiesLeftInWave--;
@@ -172,7 +179,8 @@ namespace EnemyManager
 				}
 				else
 				{
-					if ((float)rand.Next(0, 1000) / 10 <= shipShotChance)
+					int chanceToFire = Enemies[x].MaxHealth > 5 ? 100 : 1000;
+					if ((float)rand.Next(0, chanceToFire) / 10 <= shipShotChance)
 					{
 						Vector2 fireLoc = Enemies[x].EnemyBase.ScreenLocation;
 						fireLoc += Enemies[x].gunOffset;

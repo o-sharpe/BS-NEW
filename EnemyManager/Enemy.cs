@@ -67,7 +67,8 @@ namespace EnemyManager
 
 			if (WaypointReached())
 			{
-				return false;
+				if (MaxHealth == 5)
+					return false;
 			}
 
 			return true;
@@ -85,8 +86,11 @@ namespace EnemyManager
 			{
 				Destroyed = true;
 				Screen.Effects.AddExplosion(EnemyBase.WorldCenter, EnemyBase.Velocity / 30);
-				//Screen.Effects.AddExplosion(enemy.EnemyBase.WorldCenter, enemy.EnemyBase.Velocity / 30);
 			}
+
+			if (MaxHealth > 5 && WaypointReached() && waypoints.Count == 0)
+				return;
+
 			if (IsActive())
 			{
 				Vector2 heading = currentWaypoint - EnemyBase.ScreenLocation;
@@ -108,8 +112,15 @@ namespace EnemyManager
 					}
 					else
 					{
-						Battlestar.BattleStar.Damage(Health);
-						Screen.Effects.CreateLargeExplosion(EnemyBase.ScreenLocation);
+						if (MaxHealth == 5)
+						{
+							Battlestar.BattleStar.Damage(Health);
+							Screen.Effects.CreateLargeExplosion(EnemyBase.ScreenLocation);
+						}
+						else
+						{
+							EnemySpeed = 0;
+						}
 					}
 				}
 			}

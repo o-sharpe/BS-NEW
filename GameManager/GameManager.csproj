@@ -108,6 +108,14 @@
       <Project>{dabb6d82-6a9b-4fb8-99d3-92785571b63c}</Project>
       <Name>EnemyManager</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Screen\Screen.csproj">
+      <Project>{405f4762-b972-437c-9b95-6d6fff5b9770}</Project>
+      <Name>Screen</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Weapons\Weapons.csproj">
+      <Project>{2d9016d8-c068-4e5d-99b7-9b1ea4002d79}</Project>
+      <Name>Weapons</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GameManager.cs" />

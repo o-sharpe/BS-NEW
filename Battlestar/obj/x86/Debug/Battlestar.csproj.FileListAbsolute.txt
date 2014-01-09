@@ -29,10 +29,6 @@ C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battles
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\obj\x86\Debug\Battlestar.csprojResolveAssemblyReference.cache
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\obj\x86\Debug\Battlestar.dll
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\obj\x86\Debug\Battlestar.pdb
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\obj\x86\Debug\priconfig.xml.intermediate
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\obj\x86\Debug\layout.resfiles.intermediate
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\obj\x86\Debug\resources.resfiles.intermediate
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\obj\x86\Debug\pri.resfiles.intermediate
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\obj\x86\Debug\priconfig.xml
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\obj\x86\Debug\layout.resfiles
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battlestar\obj\x86\Debug\resources.resfiles

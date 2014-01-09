@@ -52,8 +52,6 @@ C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battles
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\obj\x86\Debug\BattlestarInvader.pdb
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\obj\x86\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\obj\x86\Debug\BattlestarInvader.csproj.GenerateResource.Cache
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\obj\x86\Debug\SharpDX\priconfig.xml.intermediate
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\obj\x86\Debug\SharpDX\Resources.resfiles.intermediate
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\obj\x86\Debug\SharpDX.pri
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\obj\x86\Debug\SharpDX\LanguageQualifiers.txt
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\obj\x86\Debug\priconfig.xml.intermediate
@@ -66,3 +64,6 @@ C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Battles
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\obj\x86\Debug\pri.resfiles
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\obj\x86\Debug\LanguageQualifiers.txt
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\x86\Debug\PhysicsManager.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\x86\Debug\PhysicsManager.pdb
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\BattlestarInvader\bin\Windows8\x86\Debug\PhysicsManager.pri

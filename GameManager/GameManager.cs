@@ -34,6 +34,10 @@ namespace GameManager
         {
 			Battlestar.BattleStar.ResetHullState();
 			EnemyManager.EnemyManager.Active = true;
+			EnemyManager.EnemyManager.Enemies.Clear();
+			Weapons.WeaponManager.EnemyShots.Clear();
+			Weapons.WeaponManager.PlayerShots.Clear();
+			Screen.Effects.EffectsList.Clear();
 			CurrentDifficulty = 0;
             CurrentWave = 0;
             Score = 0;
@@ -104,7 +108,7 @@ namespace GameManager
 			{
 				EndGame();
 			}
-			if (!EnemyManager.EnemyManager.Active || EnemyManager.EnemyManager.IsWaveFinished())
+			else if (!EnemyManager.EnemyManager.Active || EnemyManager.EnemyManager.IsWaveFinished())
 			{
 				StartNewWave();
 			}

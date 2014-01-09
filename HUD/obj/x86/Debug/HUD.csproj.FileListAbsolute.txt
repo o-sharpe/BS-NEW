@@ -23,10 +23,6 @@ C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\HUD\bin
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\HUD\obj\x86\Debug\HUD.csprojResolveAssemblyReference.cache
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\HUD\obj\x86\Debug\HUD.dll
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\HUD\obj\x86\Debug\HUD.pdb
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\HUD\obj\x86\Debug\priconfig.xml.intermediate
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\HUD\obj\x86\Debug\layout.resfiles.intermediate
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\HUD\obj\x86\Debug\resources.resfiles.intermediate
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\HUD\obj\x86\Debug\pri.resfiles.intermediate
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\HUD\obj\x86\Debug\priconfig.xml
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\HUD\obj\x86\Debug\layout.resfiles
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\HUD\obj\x86\Debug\resources.resfiles

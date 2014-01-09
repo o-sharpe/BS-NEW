@@ -47,9 +47,12 @@ C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.DXGI.xml
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.MediaFoundation.xml
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\bin\Debug\SharpDX.XInput.xml
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\Screen.csprojResolveAssemblyReference.cache
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\Screen.dll
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\Screen.pdb
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\priconfig.xml.intermediate
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\layout.resfiles.intermediate
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\resources.resfiles.intermediate
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\pri.resfiles.intermediate
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\priconfig.xml
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\layout.resfiles
 C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\Screen\obj\Debug\resources.resfiles
