@@ -136,6 +136,7 @@
     <Content Include="Content\Graphix\greenLaserRay.xnb" />
     <Content Include="Content\Graphix\joystick.xnb" />
     <Content Include="Content\Graphix\raider.xnb" />
+    <Content Include="Content\Graphix\gamelogo.xnb" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Logo.png" />
