@@ -18,6 +18,7 @@ namespace EnemyManager
 		public float EnemySpeed = 60f;
 		public Vector2 currentTargetSquare;
 		public int Health = 10;
+        public int MaxHealth = 10;
 		public bool Destroyed = false;
 		private int collisionRadius = 16;
 		#endregion
@@ -29,6 +30,7 @@ namespace EnemyManager
 
 			EnemyBase.CollisionRadius = collisionRadius;
 			Health = health;
+            MaxHealth = health;
 
 			Rectangle turretFrame = initialFrame;
 		}
