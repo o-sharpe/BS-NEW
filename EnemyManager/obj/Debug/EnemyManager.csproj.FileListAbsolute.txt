@@ -1,37 +1,3 @@
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\EnemyManager.dll
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\EnemyManager.pdb
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\EnemyManager.pri
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\MonoGame.Framework.dll
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\Screen.dll
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.Direct3D11.dll
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.dll
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.XAudio2.dll
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.Direct2D1.dll
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.DXGI.dll
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.MediaFoundation.dll
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.XInput.dll
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\Screen.pdb
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\Screen.pri
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\MonoGame.Framework.xml
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.Direct3D11.xml
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.xml
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.XAudio2.xml
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.Direct2D1.xml
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.DXGI.xml
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.MediaFoundation.xml
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.XInput.xml
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\EnemyManager.csprojResolveAssemblyReference.cache
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\EnemyManager.dll
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\EnemyManager.pdb
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\priconfig.xml
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\layout.resfiles
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\resources.resfiles
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\pri.resfiles
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\LanguageQualifiers.txt
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\priconfig.xml.intermediate
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\layout.resfiles.intermediate
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\resources.resfiles.intermediate
-C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\pri.resfiles.intermediate
 F:\Workspace\BS-NEW\EnemyManager\bin\Debug\EnemyManager.dll
 F:\Workspace\BS-NEW\EnemyManager\bin\Debug\EnemyManager.pdb
 F:\Workspace\BS-NEW\EnemyManager\bin\Debug\EnemyManager.pri
@@ -65,3 +31,37 @@ F:\Workspace\BS-NEW\EnemyManager\obj\Debug\layout.resfiles
 F:\Workspace\BS-NEW\EnemyManager\obj\Debug\resources.resfiles
 F:\Workspace\BS-NEW\EnemyManager\obj\Debug\pri.resfiles
 F:\Workspace\BS-NEW\EnemyManager\obj\Debug\LanguageQualifiers.txt
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\EnemyManager.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\EnemyManager.pdb
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\EnemyManager.pri
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\MonoGame.Framework.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\Screen.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.Direct3D11.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.XAudio2.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.Direct2D1.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.DXGI.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.XInput.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\Screen.pdb
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\Screen.pri
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\MonoGame.Framework.xml
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.Direct3D11.xml
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.xml
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.XAudio2.xml
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.Direct2D1.xml
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.DXGI.xml
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\bin\Debug\SharpDX.XInput.xml
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\EnemyManager.csprojResolveAssemblyReference.cache
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\EnemyManager.dll
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\EnemyManager.pdb
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\priconfig.xml.intermediate
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\layout.resfiles.intermediate
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\resources.resfiles.intermediate
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\pri.resfiles.intermediate
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\priconfig.xml
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\layout.resfiles
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\resources.resfiles
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\pri.resfiles
+C:\Users\Oliver\Documents\Visual Studio 2012\Projects\Battlestar Invader\EnemyManager\obj\Debug\LanguageQualifiers.txt

@@ -137,6 +137,7 @@
     <Content Include="Content\Graphix\joystick.xnb" />
     <Content Include="Content\Graphix\raider.xnb" />
     <Content Include="Content\Graphix\gamelogo.xnb" />
+    <Content Include="Content\Graphix\return.xnb" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Logo.png" />
