@@ -62,10 +62,6 @@ F:\Workspace\BS-NEW\Weapons\bin\Debug\SharpDX.XInput.xml
 F:\Workspace\BS-NEW\Weapons\obj\Debug\Weapons.csprojResolveAssemblyReference.cache
 F:\Workspace\BS-NEW\Weapons\obj\Debug\Weapons.dll
 F:\Workspace\BS-NEW\Weapons\obj\Debug\Weapons.pdb
-F:\Workspace\BS-NEW\Weapons\obj\Debug\priconfig.xml.intermediate
-F:\Workspace\BS-NEW\Weapons\obj\Debug\layout.resfiles.intermediate
-F:\Workspace\BS-NEW\Weapons\obj\Debug\resources.resfiles.intermediate
-F:\Workspace\BS-NEW\Weapons\obj\Debug\pri.resfiles.intermediate
 F:\Workspace\BS-NEW\Weapons\obj\Debug\priconfig.xml
 F:\Workspace\BS-NEW\Weapons\obj\Debug\layout.resfiles
 F:\Workspace\BS-NEW\Weapons\obj\Debug\resources.resfiles

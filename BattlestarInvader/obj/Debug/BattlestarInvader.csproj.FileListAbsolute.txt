@@ -111,8 +111,6 @@ F:\Workspace\BS-NEW\BattlestarInvader\obj\Debug\BattlestarInvader.exe
 F:\Workspace\BS-NEW\BattlestarInvader\obj\Debug\BattlestarInvader.pdb
 F:\Workspace\BS-NEW\BattlestarInvader\obj\Debug\SharpDX\en-us\SharpDX.Properties.Resources.resw
 F:\Workspace\BS-NEW\BattlestarInvader\obj\Debug\BattlestarInvader.csproj.GenerateResource.Cache
-F:\Workspace\BS-NEW\BattlestarInvader\obj\Debug\SharpDX\priconfig.xml.intermediate
-F:\Workspace\BS-NEW\BattlestarInvader\obj\Debug\SharpDX\Resources.resfiles.intermediate
 F:\Workspace\BS-NEW\BattlestarInvader\obj\Debug\SharpDX.pri
 F:\Workspace\BS-NEW\BattlestarInvader\obj\Debug\SharpDX\LanguageQualifiers.txt
 F:\Workspace\BS-NEW\BattlestarInvader\obj\Debug\priconfig.xml.intermediate
