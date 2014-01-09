@@ -19,11 +19,11 @@ namespace EnemyManager
 		public static bool Active = false;
 
 		private static float nextWaveTimer = 0.0f; 
-		private static int MinShipsPerWave = 3;
-		private static int MaxShipsPerWave = 6;
+		private static int MinShipsPerWave = 2;
+		private static int MaxShipsPerWave = 4;
 		private static float nextWaveMinTimer = 8.0f;
 		private static float shipSpawnTimer = 0.0f;
-		private static float shipSpawnWaitTime = 1.0f;
+		private static float shipSpawnWaitTime = 0.8f;
 		private static float shipShotChance = 0.2f;
 		private static List<List<Vector2>> pathWaypoints = new List<List<Vector2>>();
 		private static Dictionary<int, int> waveSpawns = new Dictionary<int, int>();
@@ -59,49 +59,59 @@ namespace EnemyManager
 			Enemies.Add(newEnemy);
 		}
 
-		private static void CreateWaypoint()
-		{
-
-		}
-
 		private static void SetUpWaypoints()
 		{
-			List<Vector2> path0 = new List<Vector2>();
-			path0.Add(new Vector2(850, 300));
-			path0.Add(new Vector2(-100, 300));
-			pathWaypoints.Add(path0);
-			waveSpawns[0] = 0;
+			pathWaypoints = new List<List<Vector2>>();
+			List<Vector2> path;
+			for (int i = 0; i < 10; i++)
+			{
+				path = new List<Vector2>();
+				int nbPoint = rand.Next(3, 7);
+				path.Add(new Vector2(rand.Next(-20, 1300), -10));
+				for (int j = 0; j < nbPoint; j++)
+				{
+					path.Add(new Vector2(rand.Next(400, 880), rand.Next(300, 450)));
+				}
+				path.Add(new Vector2(Battlestar.BattleStar.BaseSprite.ScreenCenter.X + rand.Next(-100, 100), Battlestar.BattleStar.BaseSprite.ScreenCenter.Y - 20));
+				pathWaypoints.Add(path);
+				waveSpawns[i] = 0;
+			}
+			//List<Vector2> path0 = new List<Vector2>();
+			//path0.Add(new Vector2(850, 300));
+			//path0.Add(new Vector2(-100, 300));
+			//pathWaypoints.Add(path0);
+			//waveSpawns[0] = 0;
 
-			List<Vector2> path1 = new List<Vector2>();
-			path1.Add(new Vector2(-50, 225));
-			path1.Add(new Vector2(850, 225));
-			pathWaypoints.Add(path1);
-			waveSpawns[1] = 0;
+			//List<Vector2> path1 = new List<Vector2>();
+			//path1.Add(new Vector2(-50, 225));
+			//path1.Add(new Vector2(850, 225));
+			//pathWaypoints.Add(path1);
+			//waveSpawns[1] = 0;
 
-			List<Vector2> path2 = new List<Vector2>();
-			path2.Add(new Vector2(-100, 50));
-			path2.Add(new Vector2(150, 50));
-			path2.Add(new Vector2(200, 75));
-			path2.Add(new Vector2(200, 125));
-			path2.Add(new Vector2(150, 150));
-			path2.Add(new Vector2(150, 175));
-			path2.Add(new Vector2(200, 200));
-			path2.Add(new Vector2(600, 200));
-			path2.Add(new Vector2(850, 600));
-			pathWaypoints.Add(path2);
-			waveSpawns[2] = 0;
+			//List<Vector2> path2 = new List<Vector2>();
+			//path2.Add(new Vector2(-100, 50));
+			//path2.Add(new Vector2(150, 50));
+			//path2.Add(new Vector2(200, 75));
+			//path2.Add(new Vector2(200, 125));
+			//path2.Add(new Vector2(150, 150));
+			//path2.Add(new Vector2(150, 175));
+			//path2.Add(new Vector2(200, 200));
+			//path2.Add(new Vector2(600, 200));
+			//path2.Add(new Vector2(850, 600));
+			//pathWaypoints.Add(path2);
+			//waveSpawns[2] = 0;
 
-			List<Vector2> path3 = new List<Vector2>();
-			path3.Add(new Vector2(600, -100));
-			path3.Add(new Vector2(600, 250));
-			path3.Add(new Vector2(580, 275));
-			path3.Add(new Vector2(500, 250));
-			path3.Add(new Vector2(500, 200));
-			path3.Add(new Vector2(450, 175));
-			path3.Add(new Vector2(400, 150));
-			path3.Add(new Vector2(-100, 150));
-			pathWaypoints.Add(path3);
-			waveSpawns[3] = 0;
+			//List<Vector2> path3 = new List<Vector2>();
+			//path3.Add(new Vector2(600, -100));
+			//path3.Add(new Vector2(600, 250));
+			//path3.Add(new Vector2(580, 275));
+			//path3.Add(new Vector2(500, 250));
+			//path3.Add(new Vector2(500, 200));
+			//path3.Add(new Vector2(450, 175));
+			//path3.Add(new Vector2(400, 150));
+			//path3.Add(new Vector2(-100, 150));
+			//pathWaypoints.Add(path3);
+			//waveSpawns[3] = 0;
 		}
 
 		private static void UpdateWaveSpawns(GameTime gameTime)
@@ -130,8 +140,7 @@ namespace EnemyManager
 
 		private static void SpawnWave(int waveType)
 		{
-			waveSpawns[waveType] +=
-				rand.Next(MinShipsPerWave, MaxShipsPerWave + 1);
+			waveSpawns[waveType] +=	rand.Next(MinShipsPerWave, MaxShipsPerWave + 1);
 		}
 		#endregion
 

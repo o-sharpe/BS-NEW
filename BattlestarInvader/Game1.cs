@@ -136,7 +136,7 @@ namespace BattlestarInvader
 					Screen.Effects.Update(gameTime);
 					PhysicsManager.PhysicsManager.Update(gameTime);
 					GameManager.GameManager.Update(gameTime);
-					if (Battlestar.BattleStar.getHullState() < 1)
+					if (Battlestar.BattleStar.GetHullState() < 1)
 						gameState = GameState.ScoreScreen;
 					break;
 				case GameState.ScoreScreen:
@@ -188,6 +188,7 @@ namespace BattlestarInvader
 				EnemyManager.EnemyManager.Draw(spriteBatch);
 				Screen.Effects.Draw(spriteBatch);
 				spriteBatch.DrawString(pericles14, string.Format("SCORE: {0}", GameManager.GameManager.Score), new Vector2(30, 45), Color.White);
+				spriteBatch.DrawString(pericles14, string.Format("WAVE: {0}", GameManager.GameManager.CurrentWave), new Vector2(30, 65), Color.White);
 			}
 
 			if (gameState == GameState.ScoreScreen)

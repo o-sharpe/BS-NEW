@@ -32,6 +32,7 @@ namespace GameManager
 
         public static void StartNewGame()
         {
+			Battlestar.BattleStar.ResetHullState();
 			EnemyManager.EnemyManager.Active = true;
 			CurrentDifficulty = 0;
             CurrentWave = 0;
@@ -98,7 +99,7 @@ namespace GameManager
 
 		public static void Update(GameTime gameTime)
 		{
-			if (BattleStar.getHullState() < 1)
+			if (BattleStar.GetHullState() < 1)
 			{
 				EndGame();
 			}

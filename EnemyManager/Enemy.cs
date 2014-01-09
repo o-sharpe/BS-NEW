@@ -15,12 +15,11 @@ namespace EnemyManager
 	{
 		#region Declarations
 		public Sprite EnemyBase;
-		public float EnemySpeed = 60f;
+		public float EnemySpeed = 100f;
 		public Vector2 currentTargetSquare;
 		public int Health = 10;
         public int MaxHealth = 10;
 		public bool Destroyed = false;
-		private int collisionRadius = 16;
 
 		public Vector2 gunOffset = new Vector2(8, 8);
 		private Queue<Vector2> waypoints = new Queue<Vector2>();

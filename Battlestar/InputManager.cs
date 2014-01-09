@@ -31,7 +31,6 @@ namespace Battlestar
 		{
 			foreach (TouchLocation tl in touchState)
 			{
-				var touchPos = new Vector2(tl.Position.Y, Camera.PhoneHeightAndWidth.Y - tl.Position.X);
 				if (joystick.ScaledScreenRectangle.Contains(Convert.ToInt32(tl.Position.X), Convert.ToInt32(tl.Position.Y)))
 				{
 					foreach (Sprite turret in BattleStar.TurretSprites)

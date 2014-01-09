@@ -93,9 +93,14 @@ namespace Battlestar
 			BattleStar.HullState -= damageValue;
 		}
 
-		public static int getHullState()
+		public static int GetHullState()
 		{
 			return BattleStar.HullState;
+		}
+
+		public static void ResetHullState()
+		{
+			HullState = 100;
 		}
 		#endregion
 	}
